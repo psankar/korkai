@@ -1,0 +1,6 @@
+* Build binaries from the sources, Upload them to a public server and give the url in the README, so that non-technical users can download and execute the program instead of compiling from the sources.
+* Translate error messages and progress statements to Tamil.
+* Create a generic-tamil-words-parser.go from the existing sources, by deleting the lines related to the XML parsing. This will help in extracting tamil words and stats from any documents.
+* Add automated test cases to make sure the parser does not cause any regression in case of changes
+
+All the above tasks are simple to do and will require only about a day maximum for each task. However, since my time is required elsewhere I am unable to do these now and will appreciate if someone can contribute.
