@@ -1,0 +1,7 @@
+*.stats
+*.tokens
+*~
+*.xml
+*.bz2
+*.zip
+.gitignore
