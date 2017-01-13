@@ -57,25 +57,41 @@ func main() {
 			words = append(words, ws...)
 		}
 	}
-	log.Println(words[:10])
-	sort.Strings(words)
-	log.Println(words[:10])
 
+	added := make(map[string]struct{})
+	var uwords []string
+	var zs struct{}
 	for _, word := range words {
 		if !strings.ContainsAny(word, "+") {
-			// Skip words ending in some letters
-			suffixes := []string{"க்", "ங்", "ச்", "ஞ்", "ட்", "த்", "ந்", "ப்", "வ்", "ற்"}
-			hasSuffix := false
-			for _, suffix := range suffixes {
-				if strings.HasSuffix(word, suffix) {
-					hasSuffix = true
-					break
+
+			_, ok := added[word]
+			if !ok {
+				added[word] = zs
+
+				// Skip words ending in some letters
+				suffixes := []string{"க்", "ங்", "ச்", "ஞ்", "ட்", "த்", "ந்", "ப்", "வ்", "ற்"}
+				hasSuffix := false
+				for _, suffix := range suffixes {
+					if strings.HasSuffix(word, suffix) {
+						hasSuffix = true
+						break
+					}
 				}
-			}
-			if !hasSuffix {
-				w.WriteString(word + "\n")
+				if !hasSuffix {
+					uwords = append(uwords, word)
+				}
+
 			}
 		}
 	}
+
+	log.Println(uwords[:100], len(uwords))
+	sort.Strings(uwords)
+	log.Println(uwords[:100], len(uwords))
+
+	for i := 0; i < len(uwords); i++ {
+		w.WriteString(uwords[i] + "\n")
+	}
+
 	w.Flush()
 }
