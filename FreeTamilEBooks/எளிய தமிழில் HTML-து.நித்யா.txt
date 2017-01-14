@@ -1,0 +1,3265 @@
+எளிய தமிழில் HTML
+
+
+
+
+
+து.நித்யா
+
+
+
+
+
+மின்னூல் வெளியீடு : http://FreeTamilEbooks.com
+
+
+
+
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+This book was produced using PressBooks.com.
+
+
+
+
+
+உள்ளடக்கம்
+
+
+எளிய தமிழில் HTML
+
+HTML
+
+உரிமை
+
+சமர்ப்பணம்
+
+ஆசிரியர் உரை
+
+உதாரணங்கள்
+
+1. HTML - அறிமுகம்
+
+2. HTML tags
+
+3. Paragraph
+
+4. Line Break
+
+5. Headings
+
+6. Bold & Italic tags
+
+7. Big & Small tags
+
+8. Font
+
+9. Strike Superscript & Subscript tags
+
+10. Preservative tag
+
+11. Lists
+
+12. Tables
+
+13. Links
+
+14. Frames
+
+15. Forms
+
+16. HTML5
+
+17. HTML5-ல் புதியன
+
+18. HTML5 - புதிய பக்கக் கட்டமைப்புக் கூறுகள் – New structural elements
+
+19. HTML5 – ன் புதிய வசதிகள்
+
+20. HTML5 – மாற்றங்களும் நீக்கங்களும்
+
+21. HTML5 attributes
+
+22. HTML5-ன் புது input வசதிகள்
+
+23. HTML5 – புது HTML form elements
+
+24. HTML5 – Storage
+
+25. HTML5 Application cache & Canvas
+
+26. HTML5 Canvas
+
+27. Scalable Vector Graphics - SVG tag
+
+28. Embed tag
+
+29. Drag & Drop
+
+30. Geolocation
+
+31. Server Sent Events
+
+32. முடிவுரை
+
+33. ஆசிரியர் பற்றி
+
+34. ஆசிரியரின் பிற மின்னூல்கள்
+
+35. கணியம் பற்றி
+
+36. நன்கொடை
+
+
+
+
+
+1
+
+
+எளிய தமிழில் HTML
+
+
+
+
+
+முதல் பதிப்பு ஏப்ரல் 2015
+
+பதிப்புரிமம் © 2015 கணியம்.
+
+
+
+ஆசிரியர் – து.நித்யா – nithyadurai87@gmail.com
+
+பிழை திருத்தம்: த.சீனிவாசன் – tshrinivasan@gmail.com
+
+வடிவமைப்பு: த.சீனிவாசன்
+
+அட்டைப்படம் – மனோஜ் குமார் – socrates1857@gmail.com
+
+
+
+
+
+2
+
+
+HTML
+
+
+
+
+HTML என்பது இணையப் பக்கங்களை உருவாக்கும் ஒரு கணிணி மொழி.
+
+இதை, இந்த நூல் எளிமையாக அறிமுகம் செய்கிறது.
+
+தமிழில் கட்டற்ற மென்பொருட்கள் பற்றிய தகவல்களை “கணியம்” மின் மாத இதழ், 2012 முதல் வெளியிட்டு வருகிறது.இதில் வெளியான HTML பற்றிய கட்டுரைககளை இணைத்து ஒரு முழு புத்தகமாக வெளியிடுவதில் பெரு மகிழ்ச்சி கொள்கிறோம்.
+
+உங்கள் கருத்துகளையும், பிழை திருத்தங்களையும் editor@kaniyam.com க்கு மின்னஞ்சல் அனுப்பலாம்.
+
+http://kaniyam.com/learn-html-in-tamil என்ற முகவரியில் இருந்து இந்த நூலை பதிவிறக்கம் செய்யலாம். உங்கள் கருத்துகளையும் இங்கே பகிரலாம்.
+
+படித்து பயன் பெறவும், பிறருடன் பகிர்ந்து மகிழவும் வேண்டுகிறோம்.
+
+கணியம் இதழை தொடர்ந்து வளர்க்கும் அனைத்து அன்பர்களுக்கும் எமது நன்றிகள்.
+
+த.சீனிவாசன்
+
+tshrinivasan@gmail.com
+
+ஆசிரியர்
+
+கணியம்
+
+editor@kaniyam.com
+
+
+
+
+
+3
+
+
+உரிமை
+
+
+
+
+
+இந்த நூல் கிரியேடிவ் காமன்ஸ் என்ற உரிமையில் வெளியிடப்படுகிறது . இதன் மூலம், நீங்கள்
+
+யாருடனும் பகிர்ந்து கொள்ளலாம்.
+
+திருத்தி எழுதி வெளியிடலாம்.
+
+வணிக ரீதியிலும்யன்படுத்தலாம்.
+
+
+
+ஆனால், மூலப் புத்தகம், ஆசிரியர் மற்றும் www.kaniyam.com பற்றிய விவரங்களை சேர்த்து தர வேண்டும். இதே உரிமைகளை யாவருக்கும் தர வேண்டும். கிரியேடிவ் காமன்ஸ் என்ற உரிமையில் வெளியிட வேண்டும்.
+
+
+
+
+
+நூல் மூலம் :
+
+http://static.kaniyam.com/ebooks/Learn-HTML-in-Tamil.odt
+
+
+
+
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+
+
+
+
+
+4
+
+
+சமர்ப்பணம்
+
+
+
+
+இந்தப் புத்தகத்தைப் படிக்க விரும்பும் அனைவருக்கும் இந்தப் புத்தகம் சமர்ப்பணம்.
+
+
+
+
+
+5
+
+
+ஆசிரியர் உரை
+
+
+
+
+அன்பே சிவம் .
+
+என்னடா HTML புத்தகத்திற்கான ஆசிரியர் உரையை ‘அன்பே சிவம்’ என்று தொடங்குகிறேனே என்று யாரும் பயந்து விட வேண்டாம். தற்போது ஒருசில மாதங்களாக, கடவுள் பற்றிய ஆராய்ச்சியில் ஈடுபட்டு வருகிறேன். பல புது விஷயங்களை உணர்கிறேன். நாம் அனைவரும், நம் வாழ்க்கை மிகவும் சந்தோஷமாக அமைய, பணம் தேடி ஓடுகிறோம். ஆனால், ஓரே இடத்தில் பணம் குவிப்பதைவிட, தேவையுள்ளோருக்கு பகிரும் போது, அதிக சந்தோஷம் கிடைக்கிறது. இவ்வாறு பிறருக்கு உதவும் போது, நாம் ஆசைப்படும் விஷயங்கள் தானாகவே நடக்கின்றன. உதவியானது, பணமாக மட்டுமே இருக்க வேண்டியதில்லை. சரியான நேரத்தில் சொல்லப்படும், அன்பான, ஆதரவான, நம்பிக்கையூட்டும் வார்த்தைகளாகவோ, புது விஷயங்களை கற்றுத் தருவதாகவோ கூட இருக்கலாம். இவ்வாறு பகிர்வதால் கிடைக்கும் சந்தோஷத்தையே கடவுள் தன்மையாக அறிகிறேன்.
+
+
+
+எனவே, எனக்கு மகிழ்ச்சி கிடைக்க, பணம் மட்டுமே போதுமானதல்ல. என்னிடம் உள்ளவற்றை பிறருக்கு பகிர்தல், நான் அறிந்தவற்றை பிறருக்கு கற்பித்தல் போன்றவற்றைச் செய்தாலே, நான் நினைக்கும் விஷயங்கள் இயல்பாகவே நடந்து விடுகின்றன என்பதை உணர்கிறேன்.
+
+
+
+தமிழில் கணிணி நுட்பங்களைப் பகிர, ஒரு களமாக உள்ள ‘கணியம்’ தளத்தில், இதுவரை வெளியான எனது மின்னூல்களுக்கு வாசகர்கள் தரும் ஆதரவு பெருமகிழ்ச்சி அளிக்கிறது.
+
+
+
+“தேமதுரத் தமிழோசை உலகெல்லாம் பரவும் வகை செய்தல் வேண்டும்”
+
+“பிற நாட்டு நல்லறிஞர் சாத்திரங்கள் தமிழ் மொழியிற் பெயர்த்தல் வேண்டும்”
+
+
+
+என்ற பாரதியின் விருப்பங்களை நிறைவேற்றுவதில், என் பங்களிப்பும் உள்ளது என்பதே, மிகவும் மகிழ்ச்சி.
+
+தொடர்ந்து ஊக்கம் அளிக்கும் என் குடும்பத்தினருக்கும், கணியம் குழுவினருக்கும், FreeTamilEbooks.com குழுவினருக்கும், வாசகர்களுக்கும் நன்றிகள்.
+
+
+
+து . நித்யா
+
+நியூ காசில்,
+
+இங்கிலாந்து.,
+
+21 ஏப்ரல் 2015
+
+
+
+
+
+மின்னஞ்சல்: nithyadurai87@gmail.com
+
+வலை பதிவு: http://nithyashrinivasan.wordpress.com
+
+
+
+
+
+6
+
+
+உதாரணங்கள்
+
+
+
+
+இந்த நூலில் உள்ள HTML உதாரணங்கள் யாவும் https://github.com/tshrinivasan/html-tamil-book-codes இங்கே உள்ளன.
+
+
+
+
+
+1
+
+
+HTML - அறிமுகம்
+
+
+
+
+Hyper Text Markup Language என்பதே HTML என்றழைக்கப்படுகிறது. இது ஒரு வலைதளத்தை உருவாக்கப் பயன்படும் மொழி ஆகும்.
+
+HTML மொழியைப் பயன்படுத்தி gedit போன்ற ஒரு Text Editor-ல் உருவாக்கப்படும் program-ஆனது .html எனும் பெயருடன் சேமித்து வைக்கப்படும். பின்னர் இது browser-ல் open செய்யப்படும்போது ஒரு் அழகிய வலைதளமாக வெளிப்படும்.
+
+gedit-ல் கொடுக்கப்படும் சாதாரண text-ஆனது ஒருசில tags-வுடன் இணைந்து hypertext-ஆக மாறுகிறது. இந்த hypertext மூலமாக browser-க்குக் கட்டளைகளைப் பிறப்பிப்பதே markup எனப்படும். இதுவே Hyper Text Markup Language எனும் பெயர் உருவாவதற்கான காரணம் ஆகும்.
+
+
+
+
+
+2
+
+
+HTML tags
+
+
+
+
+ஒரு html program-க்குத் தேவையான அடிப்படை tags பின்வருமாறு:
+
+<html> – முதன்முதலில் கொடுக்கப்படும் இந்த tag-ஆனது browser-க்கு இது ஒரு html program என்பதை உணர்த்துகிறது.
+
+<head> – அடுத்ததாக உள்ள இந்த tag-ஆனது browser-ன் தலைப்பை அமைக்கப் பயன்படுகிறது.
+
+<title> – head-ஐத் தொடர்ந்து வரும் title எனும் tag-க்குள் அமையும் வார்த்தைகளே வலைதளத்தின் தலைப்பாக அமைகிறது. </title> எனும் tag தலைப்பு வார்த்தை முடிவுற்றதை உணர்த்துகிறது. இதன் பின்னர் </head> எனும் tag-ஐயும் நாம் முடித்துக் கொள்கிறோம்.
+
+குறிப்பு: தலைப்பினை நீங்கள் கொடுத்தாலும், கொடுக்காமல் போனாலும், இத்தகைய tags-ஐ ஒவ்வொரு html program-லும் பயன்படுத்த வேண்டும்.
+
+<body> – வலைதளத்தில் இடம்பெற வேண்டிய மொத்த சாராம்சமும் இந்த tag-க்குள் தான் அமையும். </body> எனும் tag வலைதளத்தில் இடம்பெற வேண்டியவை முடிவுற்றதை உணர்த்துகிறது.
+
+இறுதியாக அமைந்துள்ள </html> எனும் tag, program முடிவுற்றதை browser-க்கு உணர்த்துகிறது.
+
+இது போன்று <html></html>,<title></title>,<head></head>,<body></body> போன்ற ஒவ்வொரு tag-ம் /-ஐத் தொடர்ந்து அதே வார்த்தைகளைப் பெற்று முடிக்கப்படுவதை இணை tags அல்லது ஜோடி tags என்பர். html-ல் இடம்பெறும் ஒவ்வொரு tag-க்கும் இணை tag என்றொன்று இருக்க வேண்டிய அவசியமில்லை. இவை இல்லாமலும் ஒருசில tags உள்ளன.
+
+இப்போது இத்தகைய tags-ஐப் பயன்படுத்தி gedit-ல் உருவாக்கப்பட்ட ஒரு program-ஐ பின்வரும் படத்தில் காணலாம்.
+
+
+
+File: sample.html
+
+<html>
+
+<head>Rhymes</head>
+
+<body>
+
+Most children love being told Nursery Rhymes. Even elders love to hear these rhymes. They are sweet to our ears forever. The rhymes speak volumes about the interest shown by the education department to enthuse the children to speak out.
+
+</body>
+
+</html>
+
+இந்த sample.html எனும் program, firefox browser-ல் open செய்யப்படும்போது அது பின்வருமாறு அமைகிறது. இதில் title tag-க்குள் கொடுக்கப்பட்ட Rhymes எனும் வார்த்தை browser-ன் தலைப்பாக “Rhymes – Mozilla Firefox” என்று அமைவதை கவனிக்கவும். பின்னர் body tag-க்குள் கொடுக்கப்பட்டவை content-ஆக வெளியாகி உள்ளது.
+
+
+
+
+
+3
+
+
+Paragraph
+
+
+
+
+பத்திகளை வெளிப்படுத்த உதவும் p tag-ன் முக்கியத்துவத்தை அறிந்து கொள்ள பின்வருமாரு மூன்று பத்திகளை body tag-க்குள் அடித்து அதனை browser-ல் திறந்து பார்க்கவும்.
+
+File: paragraph.html
+
+<html>
+
+<head><title>Nursery Rhymes</title></head>
+
+<body>
+
+Most children love being told Nursery Rhymes. The most popular rhymes are listed here. Even elders love to hear these rhymes. They are sweet to our ears forever. These rhymes speak volumes about the interest shown by the education department to enthuse the children to speak out.
+
+The list is clearly not exhaustive but it is believed that a good cross section of famous poems for children have been included. We have selected the most famous Nursery Rhymes for children. We have done our best to collect all the Nursery Rhymes from all sources and add them here for your reference. The addition of more and more rhymes is going on everyday.
+
+These Nursery Rhymes for children have been passed down over the years and due to the short nature of the verse can easily be remembered by most children from a very early age. Analysis of these Nursery Rhymes will reflect the historical background in which these Nursery Rhymes were written.
+
+</body>
+
+</html>
+
+
+
+
+
+இதில் body tag-க்குள் உள்ளவை browser-ல் வெளிப்பட்டுள்ளது. ஆனால் அதே வடிவில் paragraph-ஆக அவை வெளிப்படவில்லை. ஏனெனில் body tag-க்குள் உள்ளவை browser-ல் வெளிப்படவேண்டும் என்பது மட்டுமே இங்கு கட்டளை. அவை paragraphs-ஆக வெளிப்படவேண்டும் எனும் கட்டளையை அளிக்கவே இந்த <p> tag பயன்படுகிறது.
+
+இப்போது <p> tag-ஐ ஒவ்வொரு பத்தியின் ஆரம்பத்திலும், அதனுடைய இணை tag-ஐ பத்தியின் முடிவிலும் அமைத்து program-ஐ பின்வருமாறு மாற்றவும்.
+
+File: paragraph.html
+
+<html>
+
+<head><title>Nursery Rhymes</title></head>
+
+<body>
+
+<p>Most children love being told Nursery Rhymes. The most popular rhymes are listed here. Even elders love to hear these rhymes. They are sweet to our ears forever. These rhymes speak volumes about the interest shown by the education department to enthuse the children to speak out.</p>
+
+<p>The list is clearly not exhaustive but it is believed that a good cross section of famous poems for children have been included. We have selected the most famous Nursery Rhymes for children. We have done our best to collect all the Nursery Rhymes from all sources and add them here for your reference. The addition of more and more rhymes is going on everyday.</p>
+
+<p>These Nursery Rhymes for children have been passed down over the years and due to the short nature of the verse can easily be remembered by most children from a very early age. Analysis of these Nursery Rhymes will reflect the historical background in which these Nursery Rhymes were written.</p>
+
+</body>
+
+</html>
+
+
+
+இப்போது பத்திகள் browser-ல் வெளிப்படுவதைக் காணலாம்.
+
+
+
+
+
+align attribute:
+
+
+இந்த align எனும் attribute, <p> tag-வுடன் இணைக்கப்படும்போது, அவை பத்திகளை browser-ல் எந்தப் பக்கத்தில் வெளிப்படுத்த வேண்டும் என்பதை உணர்த்தப் பயன்படுகிறது. இந்த align attribute-க்கு அளிக்கப்படும் மூன்று விதமான மதிப்புகளைப் (left, right, center) பொருத்து, அவை பத்திகளை இடதுபுறத்திலோ, வலதுபுறத்திலோ அல்லது மத்தியிலோ வெளிப்படுத்தும். இது பின்வருமாறு.
+
+File: pattribute.html
+
+<html>
+
+<head><title>Nursery Rhymes</title></head>
+
+<body>
+
+<p align=”left”>Most children love being told Nursery Rhymes. The most popular rhymes are listed here. Even elders love to hear these rhymes.</p>
+
+<p align=”center”>The list is clearly not exhaustive but it is believed that a good cross section of famous poems for children have been included. </p>
+
+<p align=”right”>These Nursery Rhymes for children have been passed down over the years and due to the short nature of the verse can easily be remembered by most children from a very early age.</p>
+
+</body>
+
+</html>
+
+
+
+
+
+4
+
+
+Line Break
+
+
+
+
+அடுத்தடுத்த வரிகளை வெளிப்படுத்த உதவும் br tag-ன் முக்கியத்துவத்தை அறிந்து கொள்ள பின்வருமாரு தொடர்ச்சியான வரிகளை body tag-க்குள் அடித்து அதனை browser-ல் திறந்து பார்க்கவும்.
+
+File: lines.html
+
+<html>
+
+<head><title>Chubby Cheeks Rhyme</title></head>
+
+<body>
+
+Chubby cheeks, dimple chin
+
+Rosy lips, teeth within
+
+Curly hair, very fair
+
+Eyes are blue, lovely too
+
+Teacher’s pet, is that you ?
+
+Yes! Yes! Yes!
+
+</body>
+
+<html>
+
+
+
+
+
+இங்கும் body tag-க்குள் உள்ளவை browser-ல் வெளிப்பட்டுவிட்டது. ஆனால் அவை அடுத்தடுத்த வரிகளாக வெளிப்படவில்லை. இவை அடுத்தடுத்த வரிகளாக வெளிப்படவேண்டும் எனும் கட்டளையை அளிக்கவே இந்த <br> tag பயன்படுகிறது.
+
+File: lines.html
+
+<html>
+
+<head><title>Chubby Cheeks Rhyme</title></head>
+
+<body>
+
+Chubby cheeks, dimple chin<br>
+
+Rosy lips, teeth within<br>
+
+Curly hair, very fair<br>
+
+Eyes are blue, lovely too<br>
+
+Teacher’s pet, is that you ?<br>
+
+Yes! Yes! Yes!
+
+</body>
+
+<html>
+
+இப்போது <br> tag-ஐ ஒவ்வொரு வரியின் இறுதியிலும் அமைக்கவும். இதற்கு இணை tag இல்லை.
+
+
+
+இப்போது browser- ல் இவை அடுத்தடுத்த வரிகளாக வெளியாவதைக் காணலாம்.
+
+
+
+
+
+5
+
+
+Headings
+
+
+
+
+ஒருசில வார்த்தைகளை தலைப்பாக அமைக்க விரும்பினால், அந்த வார்த்தைகளுக்கு முன்னும் பின்னும் headings-க்கான இணை tags-ஐப் பயன்படுத்தலாம்.
+
+<h1>, <h2>, <h3>, <h4>, <h5> மற்றும் <h6> எனும் 6 வகை headings tags உள்ளன. இவை முறையே தலைப்புகளின் அளவினை கொஞ்சம் கொஞ்சமாக குறைத்துக் கொண்டே வரும். இது பின்வருமாறு.
+
+File : heading.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<h1>History of India (H1)</h1>
+
+<h2>1.Prehistoric era (H2)</h2>
+
+<h3>1.1 Stone Age (H3)</h3>
+
+Isolated remains of Homo erectus in Hathnora in the Narmada Valley in central India indicate that India might have been inhabited since at least the Middle Pleistocene era somewhere between 500,000 and 200,000 years ago.
+
+<h4>1.2 Bronze Age (H4)</h4>
+
+The Bronze Age in the Indian subcontinent began around 3300 BCE with the early Indus Valley Civilisation.
+
+</body>
+
+<html>
+
+
+
+இங்கு History of India என்பது மிகப்பெரிய தலைப்பாகவும், அதனடியில் உள்ள Prehistoric era என்பது கொஞ்சம் பெரிய தலைப்பாகவும், அதனடியில் உள்ள Stone Age, bronze Age என்பவை சிறிய தலைப்புகளாகவும், h1, h2.h3,h4 என்பதற்கேற்ற வகையில் வெளிப்பட்டுள்ளன.
+
+
+
+
+
+6
+
+
+Bold & Italic tags
+
+
+
+
+ஒருசில வார்த்தைகளை/வரிகளை bold-ஆக காட்டுவதற்கு <b> tag-ம், சாய்வெழுத்துக்களாகக் காட்டுவதற்கு <i>-ம் பயன்படுகிறது. இவை இணை tags-ஐப் பெற்றிருக்கும். எனவே இவற்றை நாம் விரும்பிய வார்த்தைகளுக்கு முன்னும் பின்னும் இணைத்தால், அவை bold-ஆகவும், சாய்வெழுத்துக்களிலும் வெளிப்படும். இது போன்றே <u>,</u> எனும் tag வார்த்தைகளை அடிக்கோடிட உதவும். இவை பின்வருமாறு.
+
+File: bi.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<B>Kaniyam is a free monthly E-Magazine in tamil for foss.</B><br>
+
+<I>Authors write on various topics on Free software.</I><br>
+
+<u>Shrinivasan is the editor of Kaniyam.</u>
+
+</body>
+
+</html>
+
+
+
+இங்கு முதல் வரி bold எழுத்துக்களிலும், இரண்டாவது வரி சாய்வெழுத்துக்களிலும், மூன்றாவது வரி அடிக்கோடிட்டும் வெளிப்பட்டுள்ளது.
+
+
+
+
+
+7
+
+
+Big & Small tags
+
+
+
+
+சாதாரண அளவைவிட சற்று பெரிய அளவில் எழுத்துக்களை வெளிப்படுத்த <big> எனும் tag-ம், சாதாரண அளவைவிட சற்று சிறிய அளவில் எழுத்துக்களை வெளிப்படுத்த <small> எனும் tag-ம் பயன்படுகிறது. இது பின்வருமாறு.
+
+File: bs.html
+
+<html>
+
+<head><title>Chubby Cheeks Rhyme</title></head>
+
+<body>
+
+<big>Kaniyam is a free monthly E-Magazine in tamil for foss.</big><br>
+
+Authors write on various topics on Free software.<br>
+
+<small>Shrinivasan is the editor of Kaniyam.</small>
+
+</body>
+
+<html>
+
+
+
+இங்கு முதல் வரி சாதாரண அளவைவிட சற்று பெரிய அளவிலும், இரண்டாவது வரி சாதாரண அளவிலும், மூன்றாவது வரி சற்று சிறிய அளவிலும் வெளிப்பட்டுள்ளது.
+
+
+
+
+
+8
+
+
+Font
+
+
+
+
+எழுத்துக்களின் அளவு, நிறம் மற்றும் அதன் வடிவத்தைக் குறிப்பிட <font> tag பயன்படுகிறது. இவற்றிற்காக முறையே size, colour மற்றும் face போன்ற attributes இவற்றுடன் பயன்படுத்தப்படுகின்றன. இவை மூன்றில் நாம் எதைக் குறிப்பிட விரும்புகிறோமோ, அந்த attribute-ஐ font tag-வுடன் சேர்த்துக் குறிப்பிடலாம் அல்லது இவை மூன்றையும் ஒரே நேரத்திலும் குறிப்பிடலாம். இது பின்வருமாறு.
+
+File: font.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<font color=”green”>Kaniyam is a free monthly E-Magazine</font><br>
+
+<font size=5>Authors write on various topics on Free software.</font><br>
+
+<font color=”blue” size=12 face=”Arial”>Author : Shrinivasan</font></small>
+
+</body>
+
+<html>
+
+
+
+இங்கு முதல் வரி பச்சை நிறத்தில் வெளிப்பட வேண்டும் என்று மட்டும் கொடுக்கப்பட்டுள்ளது. இரண்டாவது வரியின் அளவு 5-ஆக இருக்க வேண்டும் என்று கொடுக்கப்பட்டுள்ளது. மூன்றாவது வரியில் எழுத்துக்கள் நீல நிறத்திலும், 12 அளவிலும், Arial எழுத்துக்களாகவும் வெளிப்பட வேண்டும் என்று மூன்று attributes-ம் கொடுக்கப்பட்டுள்ளது. எனவே இதன் வெளிப்பாடு பின்வருமாறு இருக்கும்.
+
+
+
+
+
+9
+
+
+Strike Superscript & Subscript tags
+
+
+
+
+ஒரு சொல்லை எழுதிவிட்டு பின்னர் அதனை ஒரு கோடால் அடிப்பதற்கு <strike> tag-ம் , ஒருசில எண்களை ஒரு் எழுத்தின் மேற்பகுதியில் குறிப்பிட superscript tag-ம், ஒருசில எண்களை ஒரு் எழுத்தின் கீழ் பகுதியில் குறிப்பிட subscript tag-ம் பயன்படுகிறது.
+
+உதாரணத்துக்கு பின்வரும் வெளிப்பாட்டை கவனிக்கவும்.
+
+
+
+இங்கு 2 எனும் எண் x மற்றும் y எழுத்துக்களின் மேற்புறத்தில் வெளிப்பட அந்த எண்ணின் முன்னும் பின்னும் <sup></sup> எனும் tag (sup for superscript) பயன்படுத்தப்பட்டுள்ளதை பின்வரும் program-ல் கவனிக்கவும். அவ்வாறே 2 எனும் எண் H எனும் எழுத்தின் கீழ்ப் பகுதியில் வெளிப்பட அந்த எண்ணின் முன்னும் பின்னும் <sub></sub> எனும் tag (sub for subscript) பயன்படுத்தப்பட்டுள்ளது.
+
+20000 எனும் எண்ணை கோடிட்டு அடிப்பதற்கு அந்த எண்ணின் முன்னும் பின்னும் <strike> எனும் tag பயன்படுத்தப்பட்டுள்ளதையும் பின்வரும் program-ல் காணலாம்.
+
+File: ss.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+The new price of this product is <strike>Rs.20000</strike> Rs.10000<br>
+
+The chemical formulae of water: H<sub>2</sub>0<br>
+
+An expression: x<sup>2</sup>+y<sup>2</sup>
+
+</body>
+
+<html>
+
+
+
+
+
+10
+
+
+Preservative tag
+
+
+
+
+Preservative tag-ஆனது body tag-க்குள் உள்ளவற்றை அதன் வடிவம் கொஞ்சம் கூட மாறாமல் அப்படியே browser-ல் வெளிப்படுத்த உதவுகிறது. உதாரணத்துக்கு பின்வருமாறு ஒரு program-ஐ <pre> tag இல்லாமல் அடித்து, browser-ல் திறந்து பார்க்கவும்.
+
+File: pre.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<center>Kannan Store</center>
+
+Customer Name: T.Shrinivasan
+
+Product Price
+
+Hamam soap Rs.25
+
+Sugar Rs.50
+
+Rice Rs.150
+
+</body>
+
+</html>
+
+
+
+body tag-க்குள் நாம் ஒவ்வொரு வரிக்கும் கொடுத்த இடைவெளி, tag space எல்லாம் புறக்கணிக்கப்பட்டு, வெறும் எழுத்துக்கள் மட்டும் browser-ல் வெளிப்பட்டுவிட்டது. இப்போது அதே program-ஐ pre tag கொடுத்து browser-ல் open செய்து பார்க்கவும்.
+
+File: pre.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<pre>
+
+<center>Kannan Store</center>
+
+Customer Name: T.Shrinivasan
+
+Product Price
+
+Hamam soap Rs.25
+
+Sugar Rs.50
+
+Rice Rs.150
+
+</pre>
+
+</body>
+
+</html>
+
+
+
+
+
+இப்போது நாம் கொடுத்த எழுத்தின் வடிவம் கூட மாறாமல், அவை browser-ல் வெளிப்படுவதைக் காணலாம். எனவேதான் <pre> tag மிகவும் பயனுள்ளதாகக் கருதப்படுகிறது.
+
+
+
+
+
+11
+
+
+Lists
+
+
+
+
+HTML-ல் ஒருசில விவரங்களை நாம் பட்டியலிட விரும்பினால் 3 விதமான பட்டியல்களைப் பயன்படுத்தலாம். அவை பின்வருமாறு.
+
+Ordered list – தொடர்ச்சியான எண்களால் தகவல்களைப் பட்டியலிடுவது. <ol> எனும் இணை tags இந்த வேலையை செய்யும்.
+
+Unordered list – புள்ளிகளை வைத்து தகவல்களைப் பட்டியலிடுவது. <ul> எனும் இணை tags இதற்குப் பயன்படுகிறது.
+
+Definition list – ஒரு சிறு தலைப்பும், அதன்கீழ் அந்த தலைப்புக்கான விளக்கமுமாக தகவல்களைப் பட்டியலிடுவது. <dl> எனும் இணை tags இந்த வேலையைச் செய்யும்.
+
+அடுத்தபடியாக பட்டியலில் வெளியாகும் ஒவ்வொரு தகவலும் <li> எனும் இணை tags மூலம் கொடுக்கப்படுகிறது. (li for list index). அதாவது நித்யா, வித்யா, சத்யா எனும் மூன்று பெயர்களைப் பட்டியலிட விரும்பினால், ஒவ்வொரு பெயரின் முன்னும் பின்னும் <li></li> tags-ஐ இணைக்க வேண்டும். பின்னர் இந்தப் பெயர்களை தொடர்ச்சியான எண்களால் பட்டியலிட வேண்டுமா அல்லது புள்ளிகளை வைத்து பட்டியலிட வேண்டுமா எனக் குறிப்பிடும் வகையில் அந்த மூன்று பெயர்களையும் கொடுப்பதற்கு முன்னர் <ol> அல்லது <ul> எனும் tags-ஐயும், மூன்று பெயர்களையும் கொடுத்து முடித்த பின்னர் கடைசியாக அதற்கான இணை tags-ஐயும் கொடுக்க வேண்டும்.
+
+ஆனால் இந்த <li></li> tag-ஆனது definition list-க்குப் பொருந்தாது. இந்த முறையில் தலைப்பும், அதன் விளக்கமுமாக விவரங்கள் பட்டியலிடப்படுவதால், தலைப்பின் முன்னும் பின்னும் <dt></dt> tags-ம், (dt for definition title) தலைப்புக்கான விளக்கத்தின் முன்னும் பின்னும் <dd></dd> tag-ஐயும் (dd for definition data)பயன்படுத்த வேண்டும்.
+
+இந்த மூன்று முறையிலும் விவரங்கள் பட்டியலிடப்படுவதை பின்வரும் உதாரணத்தில் காணலாம்.
+
+File: list1.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+Types of Testing
+
+<ol>
+
+<li>Functional Testing</li>
+
+<li>Non-functional testing</li>
+
+</ol>
+
+Types of non-functional testing
+
+<ul>
+
+<li>Performance testing</li>
+
+<li>Automation testing</li>
+
+</ul>
+
+<dl>
+
+<dt>Functional Testing</dt>
+
+<dd>The functionality of an application will be tested.<dd>
+
+<dt>Performance Testing</dt>
+
+<dd>The performance of an application will be tested.<dd>
+
+</dl>
+
+</body>
+
+<html>
+
+
+
+
+
+Combined Lists
+
+
+ஒரு் main list-ல் விவரங்களை பட்டியலிடும்போது, அதற்குள் sublist-ஐ உருவாக்குவதே combined listsஎனப்படும். பின்வரும் உதாரண்த்தில் ordered list-ன் கீழ் பட்டியலிடப்பட்டுள்ள Functional Testing எனும் விவரத்தின் கீழ் ஒருசில தகவல்கள் Unordered list முறையில் பட்டியலிடப்பட்டுள்ளதைக் காணலாம். அவ்வாறே Non-functional testing எனும் விவரத்தின் கீழும் தகவல்கள் unordered list முறையில் பட்டியலிடப்பட்டுள்ளன.
+
+File: list2.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+Types of Testing
+
+<ol>
+
+<li>Functional Testing</li>
+
+<ul><li>Integration testing</li><li>System testing</li></ul>
+
+<li>Non-functional testing</li>
+
+<ul><li>Automation testing</li><li>Regression testing</li></ul>
+
+</ol>
+
+</body>
+
+<html>
+
+இதன் வெளிப்பாடு பின்வருமாறு இருக்கும்.
+
+
+
+
+
+12
+
+
+Tables
+
+
+
+
+அனைவருக்கும் Table என்றால் என்னவென்று தெரிந்திருக்கும். இப்போது HTML-ல் ஒரு் table-ஐ உருவாக்குவது எப்படியென்று பார்க்கப்போகிறோம்.
+
+முதலில் ஒரு் table-ன் தொடக்கத்தின் <table> எனும் tag-ஐயும், கடைசியாக அதற்கான இணை tag-ஐயும் கொடுக்க வேண்டும். பின்னர் table-ல் இடம்பெறப்போகும் ஒவ்வொரு row-ன் ஆரம்பத்தில் <tr>-ம், இறுதியில் </tr> tags-ஐயும் (tr for table row) கொடுக்க வேண்டும். இது table-ன் தலைப்பாக அமையப்போகும் row-க்கும் பொருந்தும்.
+
+அடுத்தபடியாக table-ன் தலைப்பாக இடப்பெறப்போகும் ஒவ்வொரு வார்த்தையின் முன்னரும் பின்னரும் <th></th> tags-ம் (th for table heading), table-க்குள் தகவல்களாக இடம்பெறப்போகும் ஒவ்வொரு வார்த்தையின் முன்னரும் பின்னரும் <td></td> tags-ம் (td for table data) இடம்பெற வேண்டும்.
+
+இத்தகைய tags-ஐப் பயன்படுத்தி உருவாக்கப்பட்ட ஒரு table-ஐப் பின்வருமாறு காணலாம்.
+
+File: table1.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<table>
+
+<tr>
+
+<th>Name</th>
+
+<th>Marks</th>
+
+<th>Rank</th>
+
+</tr>
+
+<tr>
+
+<td>Viyan</td>
+
+<td>1200/1200</td>
+
+<td>First</td>
+
+</tr>
+
+<tr>
+
+<td>Harini</td>
+
+<td>1180/1200</td>
+
+<td>Second</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+
+
+
+
+Border, height & width attributes
+
+
+Border எனும் பண்பு ஒரு் table-க்கு அழகிய border-ஐ உருவாக்குவதற்கும், height எனும் பண்பு ஒரு் table-ன் நீளத்தை மாற்றி அமைப்பதற்கும், width எனும் பண்பு ஒரு் table-ன் அகலத்தை மாற்றி அமைப்பதற்கும் பயன்படுகிறது.
+
+இவை மூன்றும் தொடக்கத்தில் நாம் கொடுக்கின்ற <table> tag-வுடன் இணைந்தே காணப்படும். வெறும் border எனும் வார்த்தையை மட்டும் கொடுத்தால் போதுமானது. மேலும் தடிமனான border வேண்டும் எனில் அதற்கு ஒரு மதிப்பும் தரலாம். உதாரணம் – border=3
+
+height மற்றும் width-க்குக் கொடுக்கப்படும் மதிப்பு pixel-களின் எண்ணிக்கையிலோ அல்லது சதவிகிதமாகவோ இருக்கும். பொதுவாக சதவீதத்தில் கொடுப்பது புரிந்துகொள்ள சற்று சுலபமாக இருக்கும்.
+
+இதனை பின்வரும் உதாரணத்தில் காணலாம்.
+
+File: table2.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<table border width=”60%” height=”40%”>
+
+<tr>
+
+<th>Name</th>
+
+<th>Marks</th>
+
+<th>Rank</th>
+
+</tr>
+
+<tr>
+
+<td>Viyan</td>
+
+<td>1200/1200</td>
+
+<td>First</td>
+
+</tr>
+
+<tr>
+
+<td>Harini</td>
+
+<td>1180/1200</td>
+
+<td>Second</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+
+
+
+
+Background colour attribute
+
+
+இந்தப் பண்பு table-ல் நிறங்களைக் கொண்டுவரப் பயன்படுகிறது. Bgcolor=”yellow” என <table> tag-வுடன் இணைந்து கொடுக்கும்போது முழு table-ம் மஞ்சள் நிறத்தில் காணப்படும். இந்தப் பண்பினை ஏதேனும் ஒரு் cell-க்கு மட்டும் கொடுக்கும்போது அந்த இடம் மட்டும் நாம் குறிப்பிட்டுள்ள நிறத்தில் காணப்படும்.
+
+இதனைப் பின்வரும் உதாரணத்தில் காணலாம்.
+
+File: table3.html
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<table border bgcolor=”yellow”>
+
+<tr>
+
+<th>Name</th>
+
+<th>Marks</th>
+
+<th>Rank</th>
+
+</tr>
+
+<tr>
+
+<td width=”80%” height=”20%”>Viyan</td>
+
+<td>1200/1200</td>
+
+<td bgcolor=”White”>First</td>
+
+</tr>
+
+<tr>
+
+<td align=”center”>Harini</td>
+
+<td>1180/1200</td>
+
+<td>Second</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>
+
+
+
+
+
+13
+
+
+Links
+
+
+
+
+ஒருசில வலைதளங்களில் click here for more என்றிருக்கும். அங்கு சென்று நாம் சொடுக்கும்போது, அது நம்மை இன்னொரு பக்கத்திற்கு கொண்டு செல்லும். இவ்வாறு ஒன்றை நாம் சொடுக்கும்போது அது நம்மை இன்னொரு பக்கத்திற்கு அழைத்துச் செல்வதே links எனப்படும். இவற்றை எவ்வாறு உருவக்குவதென்று இந்தப் பகுதியில் பார்க்கலாம்.
+
+முதலில் link1.htm எனும் ஒரு் program-ல் Rhymes-க்கான ஒரு் அறிமுகத்தைக் கொடுத்துவிட்டு, அதனடியில் Click here for Chubby Cheeks Rhyme என்று ஒரு் link-ஐ உருவாக்கவும். link-ஐ உருவாக்குவதற்கு anchor tags அதாவது <a></a> பயன்படும். இதற்கிடையில் கொடுக்கப்படும் வார்த்தைகள் நீலநிறத்தில் அடிக்கோடிடப்பட்ட link-ஆகத் தென்படும். இதனை நாம் சொடுக்கும்போது எந்த இடத்திற்குச் செல்ல வேண்டும் என்பதை href எனும் பண்பு தீர்மானிக்கும். hypertext reference என்பதே href ஆகும்.
+
+File: link1.htm
+
+<html>
+
+<head><title>Nursery Rhymes</title></head>
+
+<body>
+
+<center> Introduction – Rhymes</center>
+
+<br>
+
+<br>
+
+Most children love being told Nursery Rhymes. The most popular rhymes are listed here. Even elders love to hear these rhymes. They are sweet to our ears forever. These rhymes speak volumes about the interest shown by the education department to enthuse the children to speak out.
+
+<br>
+
+<br>
+
+<a href=”link2.htm”>Click here for Chubby Cheeks Rhyme</a>
+
+</body>
+
+</html>
+
+மேற்கண்ட program-ல் href-ன் மதிப்பு link2.htm என்று காணப்படுவதால் கீழ்வரும் program-க்கு நம்மை அழைத்துச் செல்லும்.
+
+link2.htm பின்வருமாறு.
+
+File: links2.htm
+
+<html>
+
+<head><title>Chubby Cheeks Rhyme</title></head>
+
+<body>
+
+Chubby cheeks, dimple chin<br>
+
+Rosy lips, teeth within<br>
+
+Curly hair, very fair<br>
+
+Eyes are blue, lovely too<br>
+
+Teacher’s pet, is that you ?<br>
+
+Yes! Yes! Yes!<br>
+
+<br>
+
+<a href=”link1.htm”>Click here to go back to Introduction</a>
+
+</body>
+
+</html>
+
+இந்த program-ன் கடைசியில் உள்ள click here to go back to introduction என்பதை நாம் சொடுக்கும்போது href-ன் மதிப்பு link1.htm என்றிருப்பதால், இது நம்மை முந்தைய program-க்கே கொண்டு செல்லும்.
+
+எனவே இதன் வெளிப்பாடுகள் பின்வருமாறு அமையும்.
+
+
+
+
+
+Internal Links
+
+
+ஒரே பக்கத்திற்குள் உள்ள பல்வேறு பகுதிகளுக்கு இணைப்பு தருவதற்கு Internal Links பயன்படுகின்றன.
+
+இங்கு இணைப்பு தர வேண்டிய பகுதிக்கு ஒரு name(பெயர்) தர வேண்டும். பின் <a href=”#name”> என்று எழுதி இணைப்பு தரலாம்.
+
+File: internallink.html
+
+<html>
+
+<head><title>Internal Links</title></head>
+
+<body>
+
+<a href=”#bottom”> Goto Bottom</a>
+
+<p> A big para goes here </p>
+
+<a name=”bottom”></a>
+
+</body>
+
+</html>
+
+
+
+
+
+External Links
+
+
+நாம் உருவாக்கிய program-களுக்கிடையில் links-ஐ உருவாக்குவதற்கும், பல்வேறு வலைதளப்பக்கங்களுக்கு links-ஐ உருவாக்குவதற்கும் பெரிய வித்தியாசம் ஒன்றும் இல்லை. வெறும் href-ன் மதிப்பு மட்டுமே மாறும். பல்வேறு வலைதள பக்கங்களுக்குமான முழுமுகவரியையும் href-ன் மதிப்பாகக் கொடுக்கும்போது, அது நம்மை பல்வேறு வலைதளங்களுக்குக் கொண்டு செல்லும்.
+
+இதனை நாம் பின்வரும் program-ல் காணலாம்.
+
+File: externallinks.htm
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<a href=”http://www.kaniyam.com/all-releases/”>Click here for Kaniyam magazines</a><br>
+
+<a href=”http://www.kaniyam.com/mysql-book-in-tamil/”>Click here for MySQL book</a><br>
+
+<a href=”mailto:nithyadurai87@gmail.com”>send me your comments</a><br>
+
+</body>
+
+</html>
+
+href-ன் மதிப்பாக mailto: என்பதைத் தொடர்ந்து ஏதேனும் ஒரு் முகவரியைக் கொடுத்தால், அந்த முகவரிக்கு மின்னஞ்சல் அனுப்பப்படும். இது மேற்கண்ட program-ல் மூன்றாவதாக இடம்பெற்றுள்ளது. மேற்கண்ட program-ன் வெளிப்பாடு பின்வருமாறு அமையும்.
+
+
+
+இதில் முதல் link-ஐ சொடுக்கும்போது பின்வரும் வெளிப்பாடும், இரண்டாவது link-ஐ சொடுக்கும்போது அடுத்த படத்தில் உள்ள வெளிப்பாடும், கடைசியாக உள்ள link-ஐ சொடுக்கும்போது எனது முகவரிக்கு ஒரு் மின்னஞ்சலும் செலுத்தப்படும்.
+
+
+
+
+
+14
+
+
+Frames
+
+
+
+
+ஒரு் link-ஐ சொடுக்கும்போது, அதன் வெளிப்பாடு ஒரு் புதிய பக்கத்தில் இடம்பெறாமல், அதே பக்கத்தில் இடம்பெறுமாறு செய்ய frames உதவுகிறது. இதன் மூலம் திரையைக் குறைந்தபட்சம் இரண்டு பகுதிகளாகப் பிரித்து, முதல் பகுதியில் links-ம் அடுத்த பகுதியில் அதற்கான வெளிப்பாடும் வருமாறு செய்யலாம்.
+
+
+
+
+
+<frameset> tag
+
+
+இது திரையை பல பிரிவுகளாகப் பிரிக்க உதவுகிறது. இதன் cols-எனும் attribute திரையை இடமிருந்து வலமாகவும், rows-எனும் attribute திரையை மேலிருந்து கீழாகவும் பிரிக்க உதவுகிறது. இத்தகைய பண்புகளின் மதிப்புகளை சதவீதத்தில் கொடுப்பது புரிந்து கொள்ள சற்று சுலபமாக இருக்கும். இது <body> tag-க்கு பதிலாகப் பயன்படுத்தப்படுகிறது. எனவே இதற்குள் <body> tag-க்குள் பயன்படுத்திய tags-க்கு இடமில்லை.
+
+
+
+
+
+<noframes> tag
+
+
+frames-ஐப் புரிந்து கொள்ள முடியாத browser-கள் <noframes> tag-க்குள் உள்ளவற்றை execute செய்து அதன் வெளிப்பட்டை browser-ல் காட்டும். இதற்குள் body tag-க்குள் பயன்படுத்திய commands-ஐ பயன்படுத்தலாம்.
+
+
+
+
+
+<frames> tag
+
+
+திரையானது எத்தனை பகுதிகளாகப் பிரிக்கப்பட்டுள்ளதோ அத்தனை <frames> tag, frameset-க்குள் காணப்படும். இதன் src எனும் பண்பு, ஒரு் frame-க்குள் என்ன இடம்பெற வேண்டும் என்பதைக் குறிப்பிடப் பயன்படுகிறது. அடுத்ததாக name எனும் பண்பு ஒவ்வொரு frame-க்கும் பெயரிட உதவுகிறது.
+
+இத்தகைய tags-ஐக் கொண்டு உருவாக்கப்பட்ட ஒரு் program-ஐ பின்வரும் உதாரணத்தில் காணலாம்.
+
+File: frame1.htm
+
+<html>
+
+<head><title></title></head>
+
+<frameset cols=”30%,*”>
+
+<frame src=”frame2.htm” name=”left”/>
+
+<frame src=”table1.html” name=”right”/>
+
+</frameset>
+
+<noframes>
+
+Your browser doesn’t support frames.
+
+</body>
+
+</html>
+
+இதில் frameset-ன் cols எனும் பண்பினால் திரையானது இடமிருந்து வலமாக இருபகுதிகளாகப் பிரிக்கப்பட்டுள்ளது. cols-ல் கொடுக்கப்பட்ட மதிப்புகள் மூலம் முதல் பகுதியானது திரையில் 30% இடத்தையும், அடுத்த பகுதியானது மீதமுள்ள இடத்தையும் (* என்பது மீதமுள்ள 70% இடம்) எடுத்துக்கொள்கிறது.
+
+திரையானது இருபகுதிகளாகப் பிரிக்கப்படவே, இதற்குள் இரு frames tag உள்ளது. முதல் frame-க்கு “left” என்றும் இரண்டாவது frame-க்கு “right” என்றும் பெயரிட்டுள்ளோம். முதல் frame-ல் src-ன் மதிப்பு frame2.htm என்றிருப்பதால், இந்த program-ன் வெளிப்பாடு முதல் frame-க்குள் இடம்பெறும்.
+
+frame2.htm எனும் program பின்வருமாறு.
+
+File: frame2.htm
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<a href=”table1.html” target=”right”>simple Table</a><br>
+
+<a href=”table2.html” target=”right”>Table with border</a><br>
+
+<a href=”table3.html” target=”right”>Table with colour</a>
+
+</body>
+
+</html>
+
+இந்த program-ல் உள்ள 3 links-ம் left என்று பெயரிடப்பட்ட முதல் frame-க்குள் வெளிப்படும்.
+
+இதில் target என்று ஒரு் புது பண்பு anchor tag-ல் இடம்பெற்றுள்ளதையும் அதன் மதிப்பு “right” என்று இருப்பதையும் கவனிக்கவும். இந்தப் பண்பே அந்த link-ஐ சொடுக்கும்போது, அதன் வெளிப்பாடு புது பக்கத்தில் இடம்பெறாமல், “right” எனும் பெயரைக் கொண்ட இரண்டாவது frame-ல் இடம்பெற உதவும்.
+
+இதன் வெளிப்பாடு பின்வருமாறு.
+
+
+
+
+
+15
+
+
+Forms
+
+
+
+
+இதுவரை எத்தகைய வடிவிலெல்லாம் தகவல்களை பயனர்களுக்கு வெளிப்படுத்துவது என்று பார்த்தோம். இப்போது படிவங்கள் மூலம் எவ்வாறு பயனர்களிடமிருந்து தகவல்களை பெற்றுக்கொள்வது என்று பார்க்கப்போகிறோம்.
+
+
+
+
+
+<form> tag
+
+
+ஒரு் படிவத்தை உருவாக்க <form> tag-ஐ <body>-க்குள் கொடுக்க வேண்டும். இதற்கான இணை tag படிவம் முடியும்போது இடம்பெறும். இந்த <form>-க்கு method மற்றும் action என்று இரண்டு பண்புகள் உள்ளன. method-க்கு post எனும் மதிப்பும், action-க்கு படிவத்தில் பூர்த்தி செய்யப்பட்ட விவரங்களை எங்கு அனுப்ப வேண்டும் எனும் மதிப்பும் பெற்றிருக்கும். இது பின்வருமாறு.
+
+<form method=”post” action=”mailto:nithyadurai87@gmail.com“>
+
+பொதுவாக action-ன் மதிப்பு ஒரு program-ஆகவோ அல்லது database-ஆகவோ இருக்கும். ஆனால் இங்கு நாம் சுலபமாகப் புரிந்து கொள்வதற்காக mailto எனும் command-ஐப் பயன்படுத்தியுள்ளோம். அதாவது படிவத்தில் பூர்த்திசெய்யப்பட்ட விவரங்கள் mailto command-ல் உள்ள மின்னஞ்சல் முகவரிக்குச் சென்றுவிடும்.
+
+அடுத்தபடியாக பயனர்களிடமிருந்து விவரத்தைப் பெற்றுக்கொள்வதற்குப் பயன்படும் ஒவ்வொரு விதமான tags-ஐயும் பின்வருமாறு பார்க்கலாம்.
+
+
+
+
+
+<input> tag
+
+
+பயனர்களிடமிருந்து எழுத்துக்கள் எண்கள் போன்ற வகையான தகவல்களைப் பெற்றுக்கொள்ள <input> tag பயன்படும். இதற்கு type மற்றும் name என்று இரண்டு பொதுவான பண்புகள் உள்ளன. type-ஆனது பெற்றுக்கொள்ளப்போவது எவ்வகை விவரம் எனும் மதிப்பினையும், name-ஆனது பெற்றுக்கொண்ட விவரத்துக்கு ஒரு் பெயரையும் அளிக்கப் பயன்படுகிறது.
+
+
+
+
+
+Text box
+
+
+உதாரணத்துக்கு ஒருவரது பெயர் மற்றும் தொலைபேசி எண் போன்ற விவரத்தை பெற்றுக்கொள்வதற்கான இரண்டு input tags பின்வருமாறு அமையும்.
+
+<input type=”text” size=”25″ name=”name”/>
+
+<input type=”text” size=”10″ name=”ph”/>
+
+இங்கு பெற்றுக்கொள்ளப்போகும் விவரம் எழுத்துக்கள் மற்றும் எண்கள் வடிவில் இருப்பதனால், இரண்டு input tag-க்கும் type-ன் மதிப்பு text என்று உள்ளது.
+
+மேலும் முதல் input-க்கு name எனும் பெயரும், அடுத்த input-க்கு ph எனும் பெயரும் அளிக்கப்பட்டுள்ளது. அடுத்தபடியாக size எனும் பண்பு முதல் input-ல் ஒரு் பெயர் 25 எழுத்துக்கள் வரை இருக்கலாம் எனும் விவரத்தையும், அடுத்த input-ல் ஒரு் தொலைபேசி எண் 10 எண்கள் வரை இருக்கலாம் எனும் விவரத்தையும் அளிக்கிறது.
+
+இங்கு ஒவ்வொரு input tag-ம் இணை tag ஏதுமின்றி அதனிறுதியில் / ஐப் பெற்று முடிக்கப்படுவதைக் காணலாம். எனவே இவை self closing tags என்றழைக்கப்படும்.
+
+இதுபோன்று வெறும் இரண்டு input tags-ஐ மட்டும் program-ல் கொடுக்கும்போது அவை திரையில் வெறும் இரண்டு பெட்டிகளை மட்டும் வெளிப்படுத்தும். இந்த இரண்டு பெட்டிகளும் எதற்காக என்று பயனர்களுக்குத் தெரியாதல்லவா. அதற்காக ஒவ்வொரு input tag-ன் முன்னரும் பின்வருமாறு கொடுக்கலாம்.
+
+Name <input type=”text” size=”25″ name=”name”/>
+
+Phone Number <input type=”text” size=”10″ name=”ph”/>
+
+இவை பயனர்களின் வசதிக்காக மட்டுமேயன்றி வேறு எதற்கும் கிடையாது. பயனர்கள் அளித்த விவரங்களெல்லாம் name எனும் பண்பில் உள்ள பெயரினால் மட்டுமே குறிக்கப்படும். உதாரணம்.
+
+Name = Kaviyan
+
+Ph = 4839403892
+
+
+
+
+
+Radio button
+
+
+இரண்டு விவரத்தைக் கொடுத்து அதில் ஏதேனும் ஒன்றை தேர்வு செய்ய radio button பயன்படும். உதாரணத்துக்கு ஒருவர் ஆணா பெண்ணா எனும் விவரத்தை அவர்களையே type செய்ய சொல்லுவதற்கு பதிலாக, “ஆண்” , “பெண்” எனும் இரண்டு radio buttons-ஐக் கொடுத்து அதில் ஏதேனும் ஒன்றை தேர்வு செய்யுமாறு சொல்லலாம். இதற்கான input tag பின்வருமாறு அமையும்.
+
+<input type=”radio” name=”sex” value=”M”/>
+
+<input type=”radio” name=”sex” value=”F”/>
+
+இவை திரையில் வெறும் இரண்டு radio button-களை மட்டுமே வெளிப்படுத்தும். எனவே எந்த button எதற்காக எனப் பயனர்கள் புரிந்து கொள்ள ஒவ்வொரு tag-க்கும் முன்னர் பின்வருமாறு கொடுக்கலாம். இவையும் பயனர்களின் புரிதலுக்காக மட்டுமே.
+
+Male <input type=”radio” name=”sex” value=”M”/>
+
+Female <input type=”radio” name=”sex” value=”F”/>
+
+இங்கு value எனும் பண்பு ஒவ்வொரு option-க்கும் உரிய மதிப்பினைக் கொண்டிருக்கும். உதாரணத்துக்கு இரண்டாவது option-ஐ தேர்வு செய்தால் “F” எனும் மதிப்பு name எனும் பண்பில் உள்ள பெயரினால் குறிக்கப்பட்டு மின்னஞ்சலில் பின்வருமாறு செலுத்தப்படும்.
+
+sex = F
+
+முதல் option-ஆனது default-ஆக தேர்வு செய்யப்பட்ட நிலையிலேயே இருக்குமாறு அமைக்க விரும்பினால், அதனிறுதியில் ‘checked’ எனும் வார்த்தையை மட்டும் இணைத்தால் போதுமானது. இது பின்வருமாறு.
+
+Male <input type=”radio” name=”sex” value=”M” checked/>
+
+
+
+
+
+Checkboxes
+
+
+இரண்டுக்கும் மேற்பட்ட விவரங்களைக் கொடுத்து அதிலிருந்து ஒன்றுக்கும் மேற்பட்ட விவரங்களைத் தேர்வு செய்யுமாறு அமைக்க விரும்பினால் checkboxes-ஐப் பயன்படுத்தலாம். உதாரணத்துக்கு தமிழ், ஆங்கிலம், இந்தி எனும் 3 மொழிகளில் ஒருவருக்கும் எந்தெந்த மொழிகளெல்லாம் தெரியும் எனும் விவரத்தைப் பெற்றுக்கொள்ள விரும்பினால், அதற்கான input tag பின்வருமாறு அமையும்.
+
+<input type=”checkbox” name=”Language” value=”Tamil” />
+
+<input type=”checkbox” name=”Language” value=”English”/>
+
+<input type=”checkbox” name=”Language” value=”Hindi”/>
+
+இவை மூன்று குட்டி குட்டி பெட்டிகளை மட்டுமே திரையில் வெளிப்படுத்தும். எனவே எந்த பெட்டி எந்த மொழிக்காக எனக் குறிப்பிடும் வகையில் ஒவ்வொரு input tag-க்கும் முன்னர் அந்தந்த மொழிகளின் பெயர்களை குறிப்பிடலாம்.
+
+இங்கும் value எனும் பண்பு ஒவ்வொரு checkbox-க்கும் உரிய மதிப்பினைக் கொண்டிருக்கும். உதாரணத்துக்கு முதல் இரண்டு checkboxes-ஐ தேர்வு செய்தால் அந்தத் தகவல்களெல்லாம் பின்வருமாறு செலுத்தப்படும்.
+
+Language = Tamil
+
+Language = English
+
+முதல் checkbox-ஆனது default-ஆக தேர்வு செய்யப்பட்ட நிலையிலேயே இருக்குமாறு அமைக்க விரும்பினால், அதனிறுதியில் ‘checked’ எனும் வார்த்தையை மட்டும் இணைத்தால் போதுமானது. இது பின்வருமாறு.
+
+<input type=”checkbox” name=”Language” value=”Tamil” checked/>
+
+
+
+
+
+Submit & Reset buttons
+
+
+<input> tag-ன் type எனும் பண்பினை ‘Submit’ என்று கொடுக்கும்போது, படிவத்தில் நாம் பூர்த்தி செய்த விவரங்கள் அனைத்தும், படிவத்தின் action எனும் பண்பில் என்ன குறிப்பிடப்பட்டுள்ளதோ அதற்கேற்ப செயல்படும். ‘Reset’ என்று கொடுக்கும்போது படிவத்தில் பூர்த்தி செய்த விவரங்கள் அனைத்தும் நீக்கப்பட்டுவிடும்.
+
+<input type=”submit”/>
+
+<input type=”reset”/>
+
+மேற்கூறியவாறு நாம் கொடுக்கும்போது, திரையில் வெறும் இரண்டு buttons மட்டும் வெளிப்படும். எனவே எந்த button எதற்காக எனப் பயனர்கள் புரிந்து கொள்வதற்காக value எனும் பண்பினை நாம் இணைக்க வேண்டும். இது பின்வருமாறு.
+
+<input type=”submit” value=”ok”/>
+
+<input type=”reset” value=”cancel”/>
+
+இப்போது ஒரு button-ன் மேல் ‘OK’ என்றும், அடுத்த button-ன் மேல் ‘cancel’ என்றும் பயனர்களின் வசதிக்காக எழுதப்பட்டிருக்கும்.
+
+
+
+
+
+<select> tag
+
+
+ஒரு் drop-down list-ஐ உருவாக்கி அதிலிருந்து மதிப்புக்களை தேர்வு செய்ய விரும்பினால், <select> tag-ஐப் பயன்படுத்தலாம். இதற்கு இணை tag உண்டு. மேலும் name மற்றும் size என்று இரண்டு விதமான பண்புகளைப் பெற்றிருக்கும். name-ல் நாம் தேர்ந்தெடுக்கும் option-க்கு ஒரு் பெயரும், size-ல் எத்தனை option-களைக் கொடுக்கப் போகிறோம் எனும் எண்ணிக்கையும் இருக்கும். list-க்குள் இடம்பெறப்போகும் ஒவ்வொரு விவரமும் <option> எனும் இணை tag-க்குள் காணப்படும்.
+
+உதாரணத்துக்கு 3 நகரத்தின் பெயர்களை ஒரு் drop-down list-ல் கொடுத்து, அதிலிருந்து ஒன்றை தேர்வு செய்வதற்கான code பின்வருமாறு அமையும்.
+
+<select name=”city” size=”3″>
+
+<option>Chengalpattu</option>
+
+<option>Kanchipuram</option>
+
+<option>Tambaram</option>
+
+</select>
+
+ஒன்றுக்கும் மேற்பட்ட விவரத்தை தேர்வுசெய்யுமாறு அமைக்க விரும்பினால், select tag-க்குள் multiple எனும் வார்த்தையை இணைத்தால் போதுமானது.
+
+<select name=”city” size=”3″ multiple>
+
+முதல் option-ஆனது default-ஆக தேர்வு செய்யப்பட்ட நிலையிலேயே இருக்குமாறு அமைக்க விரும்பினால், option tag-க்குள் selected எனும் வார்த்தையை இணைத்தால் போதுமானது.
+
+<option selected>Chengalpattu</option>
+
+
+
+
+
+<textarea> tag
+
+
+ஒன்றுக்கும் மேற்பட்ட பல வரிகளைக் கொண்ட “கருத்துக்கள்” அல்லது “முகவரி” போன்ற விவரங்களைப் பயனர்களிடமிருந்து பெற்றுக்கொள்ள <textarea> tag பயன்படும். இதற்கு இணை tag உண்டு. மேலும் rows மற்றும் cols என்று இரண்டு பண்புகளைப் பெற்றிருக்கும். rows-ல் வரிகளின் எண்ணிக்கையும், cols-ல் அவற்றின் அகலமும் இடம்பெறும்.
+
+மேற்கூறிய அனைத்து tag-ஐயும் பயன்படுத்தி உருவாக்கப்பட்ட ஒரு் program-ஐ பின்வருமாறு காணலாம்.
+
+File: form.htm
+
+<html>
+
+<head><title></title></head>
+
+<body>
+
+<form method=”post” action=”mailto:nithyadurai87@gmail.com”>
+
+<pre>
+
+Name:<input type=”text” size=”25″ name=”name”/>
+
+Phone:<input type=”text” size=”10″ name=”ph”/>
+
+Sex:
+
+Male<input type=”radio” name=”sex” value=”M” checked/>
+
+Female<input type=”radio” name=”sex” value=”F”/>
+
+Languages Known:
+
+Tamil<input type=”checkbox” name=”Language” value=”Tamil” checked/>
+
+English<input type=”checkbox” name=”Language” value=”English”/>
+
+Hindi<input type=”checkbox” name=”Language” value=”Hindi”/>
+
+City:
+
+<select name=”city” size=”3″ multiple>
+
+<option selected>Chengalpattu</option>
+
+<option>Kanchipuram</option>
+
+<option>Tambaram</option></select>
+
+Address:
+
+<textarea name=”address” rows=5 cols=25></textarea>
+
+<input type=”submit” value=”ok”/>
+
+<input type=”reset” value=”cancel”/>
+
+</pre>
+
+</form>
+
+</body>
+
+</html>
+
+
+
+
+
+16
+
+
+HTML5
+
+
+
+
+
+மூலம் – https://commons.wikimedia.org/wiki/File:Logozyrtare.jpg
+
+இதுவரை நாம் பார்த்த html-ஆனது html5 என்று புதுப்பிறவி எடுத்துள்ளது. இது பல புதிய அம்சங்களை வலைத்தளங்களில் உருவாக்கப் பயன்படுகிறது. இதன் துணைகொண்டு ஒலி/ஒளி கோப்புகள் மற்றும் 2D/3D படங்கள் ஆகியவற்றை நமது வலைத்தளத்தில் வெளிப்படுத்தலாம். மேலும் தகவல்களை application-ல் சேமிப்பது, அவற்றைப் பயன்படுத்துவது மற்றும் real-time protocols மூலம் சேமித்த தகவல்களைப் பரிமாறிக் கொள்வது போன்ற பல சிறப்பான வேலைகளையும் javascript மற்றும் css ஆகியவற்றின் துணைகொண்டு html5 செய்கிறது.
+
+மேலும் வலைத்தளங்களை கணினி, அலைபேசி, Tablet போன்ற பல்வேறு கருவிகளின் வழியாகப் பார்க்கும்போதும், அதன் வடிவமைப்பில் எவ்வித மாற்றமும் ஏற்படாமல், வலைத்தளமானது சீராகக் காட்சியளிக்க பின்வரும் நுட்பங்கள் பயன்படுகின்றன.
+
+
+
+மூலம் – http://daphyre.deviantart.com/art/HTML5-Logos-and-Badges-380429526
+
+
+
+
+
+HTML5 – இணையப் பக்கத்தின் அடிப்படைக் கட்டமைப்பைக் கூறுகிறது.
+
+CSS 3 – இது நாம் திரையில் பார்ப்பவற்றை அழகாக்குவதுடன் user interface-ஐயும் கவனித்துக்கொள்கிறது.
+
+Javascript – சாதாரண html பக்கங்களை dynamic-ஆக மாற்றி அந்தப் பக்கங்களுக்கு பல புதிய செயல்பாடுகளை அளிக்கிறது.
+
+
+
+HTML5-ம் ஒரு சாதாரண html program-க்கான syntax-ஐயே பெற்றிருக்கும். இது பின்வருமாறு.
+
+<!DOCTYPE html>
+
+<head>
+
+<title> </title>
+
+<meta charset=”utf-8″ />
+
+</head>
+
+<body>
+
+Code for html/html5
+
+</body>
+
+</html>
+
+முதலில் உள்ள <!DOCTYPE html> என்பது இதுவும் ஒரு் html document தான் என்பதை உணர்த்துகிறது. அடுத்ததாக head tag-க்குள் புதிதாக உள்ள meta tag-ஆனது நமது html document பற்றிய தகவல்களை சேமிக்க உதவுகிறது. மேலும் இதன் charset எனும் attribute, UTF-8 எனும் மதிப்பினை பெற்றிருப்பதை கவனிக்கவும். இது நமது program-ல் உள்ள code அனைத்தையும் Unicode Transformation Format-8 ல் மாற்ற உதவுகிறது.
+
+
+
+
+
+17
+
+
+HTML5-ல் புதியன
+
+
+
+
+HTML5-ல் புதிய பல விஷயங்கள் சேர்க்கப்பட்டுள்ளன.
+
+Audio & Video:
+
+Flash, silverlight போன்ற plugin ஏதுமின்றி பாடல், காணொளி ஆகியவற்றை இணையப்பக்கங்களில் சேர்க்கலாம்.
+
+Geolocation API:
+
+இந்த API-ஐப் பயன்படுத்தி பயனர்களின் இருப்பிட விவரம், IPaddress போன்ற விவரங்களைப் பெறலாம். அதன்மூலம் அவர்களின் இடத்திற்கேற்ற தகவல்களை வழங்கலாம்.
+
+Local storage:
+
+இணையதளத்திற்குத் தேவையான தகவல்கள் database-ன் துணையின்றி browser-லியே சேமிக்கப்படும் வசதியை HTML5 தருகின்றது. இதுவே Local Storage எனப்படும். இவ்வாறு சேமிக்கப்படும் விவரங்கள் தேவையான போது மட்டுமே பயன்படுத்தப்படுவதால், இவற்றை அதிக அளவில் சேமித்தாலும் தளத்தின் திறனும், வேகமும் குறையாது.
+
+Drag & Drop:
+
+ஒரு இணையப் பக்கத்தின் மீது, பயனர் படம் அல்லது கோப்பு ஒன்றை இழுத்து விடும் வசதியை எளிதாகத் தரலாம். இதற்கு HTML4 ல் JavaScript கொண்டு நிறைய நிரலாக்கம் செய்ய வேண்டும்.
+
+பல புதிய input வசதிகள் :
+
+Form உருவாக்கப் பயன்படும் input tag-ல் பல புதிய வசதிகள் சேர்க்கப்பட்டுள்ளன. பல்வேறு நிறங்களை கொடுத்து அதிலிருந்து ஒரு நிறத்தை தேர்வுசெய்யுமாறு அமைக்கும் வசதி, ஒரு calender-ஐ வெளிப்படுமாறு செய்து அதிலிருந்து தேதியை தேர்வுசெய்யும் வசதி, பயனர் கொடுக்கும் input-ஐ சோதிக்கின்ற வசதி போன்ற பல வசதிகளை javascript-ன் துணையின்றி html5-ல் இயல்பாகவே பெறலாம்.
+
+புதிய canvas:
+
+திரையை javascript மூலம் ஒரு வரைபலகையாகவே பயன்படுத்தலாம்.
+
+புதிய semantic/structural elements:
+
+
+
+section, nav போன்றவை ஒரு பக்கத்தின் பல்வேறு பகுதியைக் குறிக்கின்றன. article பக்கத்தின் முக்கியப் பகுதியின் உரையைக் குறிக்கிறது.
+
+
+
+
+
+Browser ஆதரவு :-
+
+
+HTML5-ல் பக்கங்களை உருவாக்கும்போது பயனரின் browser-ஐயும் கருத்தில் கொள்ள வேண்டும். மிக சமீபத்தில் வெளியான browsers மட்டுமே HTML5-ஐ ஆதரிப்பவை. பழைய browser-களில் HTML5 சரியாக இயங்காது.
+
+
+
+
+
+18
+
+
+HTML5 - புதிய பக்கக் கட்டமைப்புக் கூறுகள் – New structural elements
+
+
+
+
+HTML5-ல் சில புதிய பக்கக் கட்டமைப்புக் கூறுகள் சேர்க்கப்பட்டுள்ளன. இவை யாவும் <body> …. </body> tag-க்குள் வருவன.
+
+
+
+https://commons.wikimedia.org/wiki/File:Html-5.png
+
+article – இது ஒரு இணையப் பக்கத்தின் முக்கியப் பகுதியாக வரும் கட்டுரை, வலைப்பதிவு, பின்னூட்டம் போன்றவற்றைக் குறிக்கப் பயன்படுகிறது.
+
+aside – முக்கியப் பகுதியோட வரும் side bar, widget போன்றவற்றைக் குறிக்கப் பயன்படுகிறது.
+
+
+
+Header – ஒரு இணைய தளத்தின் மேற்பகுதியில் உள்ள சின்னம் தலைப்பு போன்றவற்றை அப்படியே மாறாமல் அனைத்துப் பக்கங்களிலும் வெளிப்படுத்த பயன்படுகிறது.
+
+
+
+<header>
+
+<hgroup>
+
+<h1>Header 1</h1>
+
+<h2>Sub Header 2</h2>
+
+</hgroup>
+
+</header>
+
+இதில் hgroup என்பது heading-ஐ ஒரு குழுவாகக் கருத வைக்கிறது.
+
+
+
+figure – வேறொரு பக்கத்தை சுட்டும் படங்களை உருவாக்க இது பயன்படுகிறது. fig caption என்பது அந்த பக்கத்தின் தலைப்பை வரையறுக்கிறது.
+
+
+
+<figure>
+
+<img src="KaniyamLogo.png" alt="logoo" />
+
+<figcaption>
+
+<a href="http://kaniyam.com/logo.png">
+
+Kaniyam Logo</a>, visit the web site for more info.
+
+</figcaption>
+
+</figure>
+
+
+
+footer – தளத்தின் அடிப்பகுதியைக் குறிக்க footer பயன்படுகிறது. இதில் copyright, menu போன்ற விவரங்கள் இருக்கும்.
+
+<footer>
+
+<h3 id="copyright">Copyright 2015, Creative Commons By Attribution </h3>
+
+</footer>
+
+
+
+nav – தளத்தின் menu-ஐ வரையறுக்கிறது.
+
+<nav>
+
+<h2>Menu</h2>
+
+<ul>
+
+<li><a href="#Page1">Page1</a></li>
+
+<li><a href="#Page2">Page2</a></li>
+
+<li><a href="#Page3">Page3</a></li>
+
+</ul>
+
+</nav>
+
+
+
+section – ஒரு இணையப் பக்கத்தினை பல்வேறு பாகங்களாகப் பிரிக்க இது பயன்படுகிறது.
+
+
+
+ஒரு HTML5 பக்கத்தின் அமைப்பு இதுபோல இருக்கும்.
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Sample HTML5 document</title>
+
+<script src="samplefile.js"></script>
+
+<link rel="stylesheet" href="stylefile.css">
+
+</head>
+
+<body>
+
+<header>...</header>
+
+<nav>...</nav>
+
+<article>
+
+<section>
+
+...
+
+</section>
+
+</article>
+
+<aside>...</aside>
+
+<footer>...</footer>
+
+</body>
+
+</html>
+
+
+
+
+
+19
+
+
+HTML5 – ன் புதிய வசதிகள்
+
+
+
+
+HTML5 – ன் புதிய வசதிகள் :
+
+HTML5-ல் ஊடகக் கோப்புகள், 2D/3D வரைபடங்கள், Forms போன்றவற்றைப் பயன்படுத்த பல புதிய வசதிகள் உள்ளன.
+
+
+
+
+
+ஊடகம் (Media) : –
+
+
+
+
+<audio> – இது ஒலிக் கோப்புகளை இயக்க உதவுகிறது.
+
+<video> – இது காணொளிகளை வெளிப்படுத்த உதவுகிறது.
+
+<source> – இது ஒலி / ஒளி உள்ளிட்ட பல்வேறு ஊடக மூலங்களைக் குறிக்கப் பயன்படுகிறது.
+
+<track> – இது ஒலிக்கோப்பு / ஒளிக்கோப்புகளுக்கான உரையை text track-ஐப் பயன்படுத்தி வெளிப்படுத்த உதவுகிறது.
+
+
+
+
+
+Drawing :-
+
+
+<canvas> – இது திரையில் 2D / 3D படங்களைக் காட்ட/வரைய உதவுகிறது.
+
+
+
+https://commons.wikimedia.org/wiki/File:HTML5_canvas_example.png
+
+
+
+
+
+புதிய form tags :-
+
+
+<data list> – பல options-ஐக் கொடுத்து, நாம் தேர்வு செய்யும் வசதியைத் தருகிறது.
+
+<keysen> – keypair என்ற form field-ஐ தருகிறது.
+
+<output> – திரையில் ஒரு நிரலின் வெளிப்பாட்டைக் காட்ட உதவுகிறது.
+
+
+
+
+
+20
+
+
+HTML5 – மாற்றங்களும் நீக்கங்களும்
+
+
+
+
+HTML4-ன் சில கூறுகள் HTML5-ல் மாற்றப்பட்டும் நீக்கப்பட்டும் உள்ளன. அவை பின்வருமாறு.
+
+
+
+
+
+மாற்றங்கள் :-
+
+
+
+
+<a> – ஆனது hyperlink இணைப்பு தர உதவுவதோடு , HTML5-ல் <a> … </a>-க்கு இடையே பல tags-ஐப் பயன்படுத்தவும் அனுமதிக்கிறது.
+
+
+
+<a href="kaniyam.com">
+
+<h1>..</h1>
+
+<p>..</p>
+
+</a>
+
+<hr> – இது ஒரு கிடைமட்டக் கோடு வரைகிறது. கட்டுரையில் ஒரு மாற்றம் உண்டாவதையும் குறிக்கிறது.
+
+
+
+
+
+நீக்கங்கள் :-
+
+
+<acronym> , <applet> போன்றவை நீக்கப்பட்டுள்ளன. <applet>-க்கு பதிலாக <object>-ஐப் பயன்படுத்தலாம். மேலும்
+
+<basefont>
+
+<big>
+
+<center>
+
+<dir>
+
+<font>
+
+<frame>
+
+<frameset>
+
+<noframe>
+
+<strike>
+
+<tt> ஆகியவையும் நீக்கப்பட்டுள்ளன.
+
+<strike>, <s> ஆகியவை எழுத்துக்களின் மேல் கோடிடப் பயன்பட்டன. இனி <del> என்று பயன்படுத்த வேண்டும்.
+
+
+
+
+
+21
+
+
+HTML5 attributes
+
+
+
+
+HTML-ல் உள்ள பல்வேறு tags-ன் தன்மையைத் தீர்மானிக்க attributes பயன்படுகின்றன. இத்தகைய attributes-க்கு பெயரும் (name) மதிப்பும் (value) இருக்கும்.
+
+உதாரணம்: <p class="test">...</p>
+
+இவற்றை basic attributes, custom data attributes என இருவகையாகப் பிரிக்கலாம்.
+
+
+
+
+
+1. Basic attributes:
+
+
+id :-
+
+இது html file-ல் உள்ள ஒவ்வொரு tag-க்கும் ஒரு பெயரைத் தருகிறது. இந்த பெயரைப் பயன்படுத்தி css மற்றும் javascript-ல் ஒவ்வொரு tag-ஐயும் அணுகலாம்.
+
+Class :-
+
+ஒரே பண்புகளைக் கொண்ட பல்வேறு tags-ஐ class மூலம் பெயரிடலாம். அவ்வாறே ஒரே class name-ஐக் கொண்டு பல்வேறு tags-ஐயும் குறிப்பிடலாம்.
+
+
+
+Style :-
+
+Inline css மூலம் tags-ன் வெளிப்பாட்டை அழகுபடுத்த உதவுகிறது.
+
+உதாரணம்:
+
+
+
+<div class="styles" id="myDiv">
+
+/*...*/
+
+</div>
+
+
+
+
+
+2. Custom data attributes:
+
+
+நமது தேவைக்கேற்றபடி புதுப்புது attributes-ஐ சேர்த்துக்கொள்வதே custom data attributes எனப்படும். இது data-name = value என்றவாறு இருக்கும். அதாவது data- எனத் தொடங்கி எந்தப் பெயரை வேண்டுமானாலும் கொடுக்கலாம். இத்தகைய custom data attributes-ஐ css, javascript கொண்டு அணுகலாம்.
+
+உதாரணம்:
+
+
+
+<div id="customDiv" data-type="programming" data-level="senior">
+
+/*...*/
+
+</div>
+
+ஒரு attribute- ன் மதிப்பினை javascript (js) கொண்டு பெறுதல் :
+
+
+
+ஒரு html5 element-ஐ js கொண்டு அணுகுவதற்கு அதற்கு ஒரு unique id வேண்டும். பின்னர் getElementbyId() எனும் js function கொண்டு அதை அணுக்கலாம்.
+
+
+
+var mydiv=document.getElementById('customDiv')
+
+
+
+
+
+இது பின்வரும் html5 element-ஐ அணுகுகிறது.
+
+
+
+<div id="customDiv" data-type="programming" data-level="senior">
+
+/*...*/
+
+</div>
+
+
+
+இந்த custom மதிப்புகளை பின்வரும் இரு வழிகளில் பெறலாம்.
+
+
+
+1. getattribute() method
+
+
+
+var mydiv=document.getElementById('customDiv')
+
+//Using getAttribute() property
+
+var type=mydiv.getAttribute("data-type"); //returns "programming"
+
+customDiv.setAttribute("data-type", "testing"); //changes "data-type" to "testing"
+
+customDiv.removeAttribute("data-type"); //removes "data-type" attribute entirely
+
+
+
+2. dataset property ஐ அணுக
+
+//Using JavaScript's dataset property
+
+var type=mydiv.dataset.type; //returns "programming"
+
+customDiv.dataset.type=testing; //changes "data-brand" to "testing"
+
+customDiv.dataset.type=null; //removes "data-brand" attribute
+
+
+
+முழு உதாரணம் இங்கே
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Sample</title>
+
+<meta charset="utf-8" />
+
+</head>
+
+<body>
+
+<div id=”customDiv” data-type="programming" data-level="senior">
+
+</div>
+
+<script>
+
+var type=mydiv.getAttribute("data-type");
+
+customDiv.setAttribute("data-type", "testing");
+
+customDiv.removeAttribute("data-type");
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+22
+
+
+HTML5-ன் புது input வசதிகள்
+
+
+
+
+<form>-க்குள் <input> என்பது பயனர்களிடமிருந்து விவரங்களை உள்ளீடாகப் பெற உதவும் ஓர் வகை ஆகும். HTML5-ல் பின்வரும் பல <input> வகைகள் அறிமுகப்படுத்தப்பட்டுள்ளன.
+
+color: பல்வேறு நிறங்களை கொடுத்து அதிலிருந்து ஒரு நிறத்தை தேர்ந்தெடுக்க உதவும் நிறக்கருவி
+
+date: calender-ஐ வெளிப்படுமாறு செய்து அதிலிருந்து ஒரு தேதியை தேர்ந்தெடுக்க உதவும் கருவி
+
+datetime: தேதி மற்றும் நேரத்தை தேர்ந்தெடுக்க உதவும் கருவி
+
+email: மின்னஞ்சல் முகவரியை மட்டும் பெற உதவும் வகை
+
+month: மாதம் வருடம் மற்றும் தேதி பெற உதவும் வகை
+
+number: எண்களை மட்டும் உள்ளீடாகப் பெறும் வகை. min, max மதிப்புகளைத் தரலாம்.
+
+range: min, max மதிப்புகளுக்கிடையே உள்ள எண்களை மட்டும் ஒரு தொகுப்பாகப் பெற உதவும் வகை.
+
+search: தேடு பெட்டி அமைக்க உதவும் வகை
+
+tel: தொலைபேசி எண் மட்டும் பெற உதவும் வகை
+
+time: நேரம் மட்டும் பெற உதவும் வகை
+
+url : இணையதள/பக்க முகவரிகள் மட்டும் பெறும் வகை
+
+week : வாரம் வருடம் மட்டும் பெறும் வகை
+
+
+
+உதாரணம் :
+
+<div>
+
+<h3>type=”color”</h3>
+
+<input type=”color” name=”color”>
+
+</div>
+
+<div>
+
+<h3>type=”date”</h3>
+
+<input type=”date” name=”date”>
+
+</div>
+
+<div>
+
+<h3>type=”datetime”</h3>
+
+<input type=”datetime” name=”datetime”>
+
+</div>
+
+<div>
+
+<h3>type=”datetime-local”</h3>
+
+<input type=”datetime-local” name=”datetime-local”>
+
+</div>
+
+<div>
+
+<h3>type=”email”</h3>
+
+<input type=”email” name=”email”>
+
+</div>
+
+<div>
+
+<h3>type=”month”</h3>
+
+<input type=”month” name=”month”>
+
+</div>
+
+<div>
+
+<h3>type=”number”</h3>
+
+<input type=”number” name=”number”>
+
+</div>
+
+<div>
+
+<h3>type=”range”</h3>
+
+<input type=”range” id=”range” name=”range”>
+
+<output for=”range” id=”output”></output>
+
+</div>
+
+<div>
+
+<h3>type=”search”</h3>
+
+<input type=”search” name=”search” results=”5″ autosave=”saved-searches”>
+
+</div>
+
+<div>
+
+<h3>type=”tel”</h3>
+
+<input type=”tel” name=”tel”>
+
+</div>
+
+<div>
+
+<h3>type=”time”</h3>
+
+<input type=”time” name=”time”>
+
+</div>
+
+<div>
+
+<h3>type=”url”</h3>
+
+<input type=”url” name=”url”>
+
+</div>
+
+<div>
+
+<h3>type=”week”</h3>
+
+<input type=”week” name=”week”>
+
+</div>
+
+<div>
+
+<input type=”submit” value=”Send”>
+
+</div>
+
+
+
+HTML5-ல் புது input attributes சேர்க்கப்பட்டுள்ளன.
+
+1. Autofocus – ஒரு இணைய பக்கத்தை திறந்தவுடன் mouse cursor-ஐ வைத்திருக்கும் பெட்டியை
+
+குறிப்பிடுகிறது.
+
+2. Placeholder – பயனர் தர வேண்டிய தகவல் பற்றிய விவரம் தரும் வகை.
+
+required : இதைக் குறிப்பிட்டுள்ள பெட்டியில் பயனர் கண்டிப்பாகத் தகவலைத் தர வேண்டும்.
+
+form : input பெட்டியானது எந்த form-ஐ சேர்ந்தது எனக் குறிப்பிட உதவுகிறது.
+
+height : உயரம்
+
+width : அகலம்
+
+pattern : ஒரு regular expression தந்து அதன்படி மட்டுமே தகவலைப் பெற உதவுகிறது.
+
+சில Boolean வகையான attribute-களுக்கு வெறும் பெயர் மட்டும் தந்தாலே போதும். True, False என்று சொல்ல வேண்டியதில்லை. autofocus=’autofocus’ என்று சொல்லாமல் வெறும் autofocus என்று சொன்னாலே போதும்..
+
+
+
+உதாரணங்கள்
+
+<input type="text" autofocus />
+
+<input type="text" placeholder =”some text” />
+
+<input type="text" required />
+
+
+
+
+
+23
+
+
+HTML5 – புது HTML form elements
+
+
+
+
+Form-ஐ நிரப்பு input வகை போலவே <datalist> <keygen> <output> போன்ற வகைகள் சேர்க்கப்பட்டுள்ளன.
+
+<form>-க்கு பின்வரும் புது attributes சேர்க்கப்பட்டுள்ளன.
+
+autocomplete: தானாகவே form-ஐ நிரப்பும் வசதியை தீர்மானிக்கிறது.
+
+novalidate: form-ஐ submit செய்யும்போது தகவல்களை மீண்டும் சரிபார்க்க வேண்டாம் என்று குறிப்பிடுகிறது.
+
+
+
+
+
+HTML5 <datalist>
+
+
+
+
+பயனரிடமிருந்து தகவலைப் பெறும் input box-ல் முதல் எழுத்தைத் தட்டினால், ஒரு பட்டியல் தோன்றி அதிலிருந்து ஒன்றை தேர்வு செய்யும் வசதியை இந்த datalist தருகிறது.
+
+
+
+உதாரணம்
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<form action="demo_form.asp" method="get">
+
+<input list="colors" name="color">
+
+<datalist id="colors">
+
+<option value="Red">
+
+<option value="Blue">
+
+<option value="Green">
+
+<option value="Pink">
+
+<option value="Black">
+
+</datalist>
+
+<input type="submit">
+
+</form>
+
+</body>
+
+</html>
+
+
+
+
+
+HTML5 <keygen>
+
+
+பயனரை login செய்ய username, password கேட்கும்போதே, keygen மூலம் private key, public key-ஐ உருவாக்க உதவுகிறது.
+
+Private key – browser ல் சேமிக்கப்படுகிறது.
+
+Public key – server க்கு அனுப்பப்படுகிறது.
+
+
+
+
+
+HTML5 <output>
+
+
+இது பல்வேறு நிரல்களின் output-ஐ இணையப் பக்கத்தில் காட்ட உதவுகிறது.
+
+
+
+
+
+24
+
+
+HTML5 – Storage
+
+
+
+
+
+HTML5-ல் பல்வேறு தகவல்களை browser-க்குள்ளேயே சேமிக்கலாம். அதிக அளவிலான தகவல்களை சேமித்தாலும், அவை தேவையான போது மட்டுமே பயன்படுத்தப்படுவதால் வேகம் சிறிதும் குறைவதில்லை. இதில் இருவகையான சேமிப்பு வகைகள் உள்ளன. அவை,
+
+Local Storage : இதில் தகவல்கள் நிரந்தரமாக சேமிக்கப்படுகின்றன.
+
+Session Storage : இதில் தகவல்கள் ஒரு session-ல் மட்டும் அதாவது பயனர் browser-ஐ மூடும் வரை மட்டும் சேமிக்கப்படுகின்றன. பின் அவை அழிக்கப்படுகின்றன.
+
+Cookies: HTML4-ல் இதுபோல தகவல்களை சேமிக்க cookies பயன்பட்டன. இது இணையதளத்திற்கும் browser-க்கும் இடையே உள்ள ஒரு text file ஆகும். இதில் பல குறைகள் உள்ளன.
+
+1. ஒவ்வொரு request-க்கும் இந்த மொத்த cookie file-ம் சேர்த்தே அனுப்பப்படுகிறது. இதனால் வேகம் வெகுவாகக் குறைக்கிறது.
+
+2. 4KB அளவிலான தகவல்களை மட்டுமே சேமிக்க முடியும்.
+
+3. பாதுகாப்பு காரணங்களுக்காக ஒவ்வொருவரும் cookie-ஐ தமது browser-ல் முடக்கி வைத்திருப்பார்.
+
+இத்தகைய குறைகளை HTML5-ன் Local storage தீர்கிறது.
+
+
+
+
+
+Local Storage:
+
+
+தகவல்களை local storage-ல் சேர்க்க மாற்ற அழிக்க javascript-ஐப் பயன்படுத்தலாம்.
+
+setItem (key,value) – இது புது தகவலை key=value என்ற முறையில் சேர்க்கிறது.
+
+localStorage.setItem("name", "kaniyam"); //name is the key, kaniyam is the value
+
+
+
+getItem (key) – இது key-க்கு நிகரான value-ஐ தருகிறது.
+
+sessionStorage.getItem('name'); // name is the key
+
+
+
+removeItem (key) – இது key-ன் விவரங்களை அழிக்கிறது.
+
+localStorage.removeItem("name"); // name is the key
+
+
+
+clear() – இது எல்லா தகவல்களையும் அழிக்கிறது.
+
+localStorage.clear();
+
+
+
+உதாரணம் :
+
+
+
+<script>
+
+localStorage.setItem("name", "kaniyam"); //saves to the database, key/value
+
+document.write(localStorage.getItem("name")); //kaniyam!
+
+localStorage.removeItem("name"); //deletes the matching item from the database
+
+//Or alternatively you can save a value to the database using this syntax
+
+localStorage.name= "kaniyam";
+
+</script>
+
+
+
+JSon வகை – JSon என்பது Java Script Object Notification. இது பல்வேறு தகவல்களை ஒரு array போல சேமிக்க உதவுகிறது. உதாரணம். Local storage-ல் இந்த JSon வகையிலும் தகவல்களை சேமிக்கலாம். text வகைத் தகவலை JSon-ஆக மாற்றியபின் சேமிக்கலாம். உதாரணம்:
+
+{ "firstName": "Nithya", "lastName": "Shrinivasan", "age": 30, "phoneNumber": [{"type": "home","number": "99--66},{"type": "fax","number":"888-87"}] }
+
+var complexdata = [1, 2, 3, 4, 5, 6];
+
+// store array data to the localstorage
+
+localStorage.setItem("list_data_key", JSON.stringify(complexdata));
+
+//Use JSON to retrieve the stored data and convert it
+
+var storedData = localStorage.getItem("complexdata");
+
+if (storedData) {
+
+complexdata = JSON.parse(storedData);
+
+}
+
+
+
+
+
+Session Storage:
+
+
+Browser window மூடும் வரை மட்டுமே சேமிக்கப்படும் விவரங்களை session storage-ல் சேமிக்கலாம். Local storage போலவே சேர்த்தல், மாற்றுதல், அழித்தல் பணிகளை செய்யலாம்.
+
+JSON வகைத் தகவலையும் சேமிக்கலாம்.
+
+
+
+உதாரணம்
+
+
+
+<script>
+
+sessionStorage.setItem("name", "kaniyam"); //saves to the database, key/value
+
+document.write(sessionStorage.getItem("name")); //kaniyam!
+
+sessionStorage.removeItem("name"); //deletes the matching item from the database
+
+//Or alternatively you can save a value to the database using this syntax
+
+sessionStorage.name= "kaniyam";
+
+</script>
+
+
+
+
+
+25
+
+
+HTML5 Application cache & Canvas
+
+
+
+
+HTML5 Application cache : இணையத்தளங்களை இணைய இணைப்பு இல்லாமலேயே பார்க்க அவற்றை application cache மூலம் offline storage-ல் சேமிக்கலாம். இவ்வாறு offline-ல் ஒரு பக்கத்தை சேமிக்க <html> tag-உடன் manifest எனும் attribute-ஐ சேர்க்க வேண்டும்.
+
+
+
+http://pixabay.com/p-152091
+
+
+
+உதாரணம்
+
+<html manifest="mysample.appcache">
+
+// ...
+
+</html>
+
+Manifest என்பது நாம் offline-ல் சேமிக்க விரும்பும் பக்கங்களை விளக்கும் ஒரு கோப்பு.
+
+cache manifest – சேமிக்க விரும்பும் கோப்புகளின் பட்டியல்
+
+Network – இந்த பட்டியலில் உள்ள கோப்புகள் network இருந்தால் மட்டுமே அணுக முடியும். சேமிக்க இயலாது.
+
+Fall back – பக்கங்களை அணுக முடியவில்லை என்றால் காட்ட வேண்டிய மாற்றுப் பக்கங்களின் பட்டியல்.
+
+
+
+உதாரணம்
+
+
+
+CACHE MANIFEST
+
+# 2013-03-19 v3.0.0
+
+CACHE:
+
+home.html
+
+stylesheet.css
+
+scripts/main.js
+
+NETWORK:
+
+login.apsx
+
+FALLBACK:
+
+default.html
+
+images/offline.jpg
+
+# – ல் தொடங்கும் வரிகள் comment.
+
+எல்லா பக்கங்களையும் இணைய வழியில் மட்டுமே பார்க்க Network : * என்று எழுதுக. ஒருமுறை பக்கங்கள் சேமிக்கப்பட்டால் server-ல் அவை மாறினாலும் browser-ல் சேமிக்கப்பட்டவையே காட்டப்படும். புது மாற்றங்களைக் காட்ட manifest file-ஐ மாற்ற வேண்டும். .
+
+Cache- ஐ மாற்றுதல் :
+
+* பயனர் browser catche-ஐ நீக்கும் வரை
+
+* manifest file-ஐ மாற்றும் வரை
+
+* நிரல் வழியே catche மாறும் வரை
+
+சேமிக்கப்பட்ட விவரங்கள் அப்படியே இருக்கும். இணைய இணைப்பு அதிகம் கிடைக்காத காலங்களில் இந்த offline storage முறை வெகுவாகப் பயன்படும்.
+
+
+
+
+
+26
+
+
+HTML5 Canvas
+
+
+
+
+இணையப் பக்கங்களில் 2D/3D படங்களை javascript கொண்டு வரைய <canvas> பயன்படுகிறது.
+
+* இதில் resolution குறிப்பிடுவது அவசியம்.
+
+* Text காட்டுவது கடினம்
+
+* படங்களை jpg, png ஆகச் சேமிக்கலாம்.
+
+* விளையாட்டுகளை உருவாக்கப் பெரிதும் பயன்படும் .
+
+<canvas>-ல் id, width, height-ஐ கண்டிப்பாகத் தர வேண்டும்.
+
+
+
+உதாரணம்
+
+<canvas id="sampleCanvas" width="100" height="100">
+
+/*..*/
+
+</canvas>
+
+javascript கொண்டு இதை அணுகுதல்.
+
+
+
+உதாரணம்
+
+var canvas = document.getElementById("sampleCanvas");
+
+
+
+படம் வரைதல்: getcontext(2d) என்ற function-ஆனது canvas-ஐ தயார் செய்கிறது. x,y coordinate தருவதன் மூலம் எளிதில் வரையலாம்.
+
+var canvas = document.getElementById("sampleCanvas");
+
+var context=canvas.getContext("2d");
+
+
+
+Fill Rect (x1,y1,x2,y2) – பெட்டி வரைய
+
+var canvas = document.getElementById("sampleCanvas");
+
+var context=canvas.getContext("2d");
+
+context.fillRect(0,0,100,200);
+
+
+
+Moveto(x,y) – line தொடக்கம்
+
+Lineto (x,y) – line முடிவு
+
+stroke() – line வரைய உதாரணம்
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<body>
+
+<img id="logo" src="sample.jpg" alt="logo" width="220" height="277"/>
+
+<canvas id="sampleCanvas" width="100" height="100" >
+
+</canvas>
+
+<script>
+
+var c=document.getElementById("sampleCanvas");
+
+var context=c.getContext("2d");
+
+context.moveTo(0,0);
+
+context.lineTo(200,100);
+
+context.strokeStyle = '#ff00ff'
+
+context.lineWidth = 10;
+
+context.stroke();
+
+</script>
+
+</body>
+
+</html>
+
+
+
+
+
+27
+
+
+Scalable Vector Graphics - SVG tag
+
+
+
+
+SVG tag- ஆனது வட்டம், செவ்வகம், நீள்கோளம், Polygon போன்ற வடிவங்களை திரையில் வெளிப்படுத்த உதவும். இது Scalar Vector Graphics எனப் பொருள்படும். இந்த tag-க்குள் ஒவ்வொரு வடிவத்தை வெளிப்படுத்துவதற்கும் தனித்தனி tags பயன்படும். இத்தகைய tags-க்கான விதிமுறைகள் அனைத்தும் http://www.w3.org/2000/svg எனுமிடத்தில் காணப்படும். எனவேதான் SVG tag-ன் xmlns (Extensible Markup Language Name Space) எனும் attribute இந்த முகவரியை அதன் மதிப்பாக பெற்றிருக்கும்.
+
+இப்போது ஒரு் கோடு, செவ்வகம் மற்றும் வட்டம் ஆகியவற்றை வரைவதற்கான code-ஐப் பின்வருமாறு காணலாம்.
+
+File: svg.htm
+
+<!DOCTYPE html>
+
+<head>
+
+<title>SVG</title>
+
+<meta charset=”utf-8″ />
+
+</head>
+
+<body>
+
+<h2>Examples for SVG</h2>
+
+<svg xmlns=”http://www.w3.org/2000/svg”>
+
+<line x1=”0″ y1=”0″ x2=”200″ y2=”100″style=”stroke:red;stroke-width:2″/>
+
+</svg>
+
+<svg xmlns=”http://www.w3.org/2000/svg”>
+
+<rect id=”redrect” width=”300″ height=”100″ fill=”green” />
+
+</svg>
+
+<svg xmlns=”http://www.w3.org/2000/svg”>
+
+<circle cx=”50″ cy=”50″ r=”50″ fill=”blue” />
+
+</svg>
+
+</body>
+
+</html>
+
+
+
+
+
+இங்கு svg tag-க்குள் உள்ள <line >tag ஒரு் கோட்டினை வரைவதற்கும், <circle> tag வட்டத்தை வரைவதற்கும், <rect> tag செவ்வகத்தை வரைவதற்கும் பயன்படுத்தப்பட்டுள்ளதைக் காணலாம். இவை மூன்றும் self-closing tags ஆகும்.
+
+இவை மூன்றையும் ஒரே svg tag-க்குள் கொடுக்கும் போது அதன் வடிவங்கள் அனைத்தும் ஒன்றன் மீது ஒன்றாக வரையப்படுகின்றன. எனவே தான் ஒவ்வொரு வடிவத்துக்கும் ஒவ்வொரு முறை svg tag-ஐ பயன்படுத்தியுள்ளேன்.
+
+ஒரு் கோடு வரைவதற்கு (x1,y1) (x2,y2) எனும் மதிப்புகள் தேவை. எனவே இத்தகைய மதிப்புகளை line tag-ன் attribute ஆகக் கொடுத்து ஒரு் கோடு வரையப்பட்டுள்ளது. மேலும் style attribute-ன் மதிப்பாக Stroke அதாவது கோட்டின் நிறம் மற்றும் அதன் அகலத்தின் மதிப்பு கொடுக்கப்பட்டுள்ளது.
+
+அவ்வாறே ஒரு் செவ்வகம் வரைவதற்குத் தேவைப்படும் height மற்றும் width எனும் மதிப்புகள் அதன் attributes-ஆகக் கொடுக்கப்பட்டுள்ளதையும், fill எனும் மற்றொரு attribute மூலமாக செவ்வகத்திற்கு பச்சை நிறம் பூசப்பட்டுள்ளத்தையும் காணலாம்.
+
+அடுத்தபடியாக வட்டம் வரைவதற்கு தேவைபட்ட x,y மற்றும் Radius (ஆரம்) எனும் மதிப்புகள் முறையே cx, cy, r எனும் attributes-க்கு மதிப்பாக கொடுத்து வட்டம் வரையப்பட்டுள்ளதையும், fill எனும் மற்றொரு attribute மூலமாக வட்டத்திற்கு நீல நிறம் பூசப்பட்டுள்ளத்தையும் காணலாம்.
+
+
+
+
+
+28
+
+
+Embed tag
+
+
+
+
+நமக்கெல்லாம் நன்றாக தெரிந்த youtube போன்ற வலைத்தளத்தில் நாம் audio-வைக் கேட்டும் video-வைப் பார்த்தும் மகிழ்ந்துள்ளோம். இதுபோன்ற வலைத்தளத்தை எவ்வாறு உருவாக்குவது? நாம் உருவாக்கப் போகும் வலைத்தளத்தில் எவ்வாறு ஒளி /ஒலி கோப்புகளை இணைப்பது? இதற்காக HTML5 வழங்கும் tag-தான் <embed> tag.
+
+Flash, Silverlight போன்ற plugin எதுவும் இல்லாமலேயே audio, video ஐ இதன் மூலம் இயக்கலாம்.
+
+இப்போது ஒரு் audio மற்றும் video-வை இணைப்பதற்கான code-ஐப் பின்வருமாறு காணலாம்.
+
+File: Audio.htm
+
+<!DOCTYPE html>
+
+<head>
+
+<title>Audio & Video</title>
+
+<meta charset=”utf-8″ />
+
+</head>
+
+<body>
+
+<h2>Audio</h2>
+
+<embed src=”/home/nithya/Music/mahadevaya.mp3″>
+
+<h2>Video</h2>
+
+<embed src=”/usr/share/help/sl/mahjongg/figures/mahjongg-video.ogv”>
+
+</body>
+
+</html>
+
+
+
+
+
+29
+
+
+Drag & Drop
+
+
+
+
+Drag and Drop என்பது நமது வலைத்தளத்தில் உள்ளவற்றை (படங்களையோ அல்லது கோப்புகளையோ) இடம் நகர்த்தி வைப்பதற்கு உதவும் ஒரு் பயன்பாடு ஆகும். எந்த ஒரு Object-ஐ நாம் இடம் நகர்த்த விரும்புகிறோமோ அந்த object-ன் மீது சொடுக்கி, பின்னர் சொடுக்கிய நிலையிலேயே அத்தனை நகர்த்தி வேறொரு இடத்தில் வைத்துவிட்டு mouse பட்டனில் இருந்து விரலை நீக்கினால் அந்த object இடம்பெயர்ந்து விடும்.
+
+உதாரணத்துக்கு நமது வலைத்தளத்தைப் பயன்படுத்தப் போகும் பயனர்கள் அங்கு உள்ள ஒரு் படத்தை இடம்நகர்த்தி அங்கு காணப்படும் ஒரு் சிறிய பெட்டிக்குள் வைக்குமாறு அமைப்பதற்கான code பின்வருமாறு அமையும்.
+
+
+
+File: drag and frop.html
+
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<style>
+
+#div1 {width:350px;height:70px;padding:10px;border:1px solid #aaaaaa;}
+
+</style>
+
+<script>
+
+function allowDrop(ev) {
+
+ev.preventDefault();
+
+}
+
+function drag(ev) {
+
+ev.dataTransfer.setData(“text”, ev.target.id);
+
+}
+
+function drop(ev) {
+
+ev.preventDefault();
+
+var data = ev.dataTransfer.getData(“text”);
+
+ev.target.appendChild(document.getElementById(data));
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<p>Drag the Dog image into the rectangle</p>
+
+<div id=”div1″ ondrop=”drop(event)” ondragover=”allowDrop(event)”></div>
+
+<br>
+
+<img id=”drag1″ src=”/home/nithya/Pictures/nithya-5th-month/DSC_0171.jpg” draggable=”true” ondragstart=”drag(event)” width=”300″ height=”200″>
+
+</body>
+
+</html>
+
+
+
+இதற்கான code பார்ப்பதற்கு சற்று கடினமாக இருந்தாலும் கொஞ்சம் கொஞ்சமாக படித்துப் பார்த்தால் சுலபமாகப் புரிந்து விடும்.
+
+முதலில் body tag-க்குள் உள்ள <div> tag செவ்வக வடிவில் ஒரு் divition-ஐ உருவாக்குவதற்கும், <img> tag ஒரு் படத்தை வெளிப்படுத்துவதற்கும் பயன்படுகிறது. இந்தப் படத்தைத் தான் <div> tag-ஆல் உருவாக்கப்பட்ட செவ்வக வடிவ பெட்டிக்குள் நாம் நகர்த்தப் போகிறோம்.
+
+<img> tag-க்குள் உள்ள attributes-ன் விளக்கத்தைப் பின்வருமாறு காணலாம்.
+
+id = இதன் மூலம் இந்தப் படத்திற்கு ‘COW’ எனப் பெயரிட்டுள்ளோம்.
+
+src = இந்தப் படத்திற்கான முழு முகவரி இங்கு அளிக்கப்பட்டுள்ளது.
+
+draggable = இதற்கு ‘true’ என மதிப்பினை அமைப்பதன் மூலம், இந்தப் படத்தை நகருமாறு மாற்றி அமைக்க முடியும்.
+
+ondragstart = இந்தப் படத்தை நகர்த்தும் போது என்ன நிகழ வேண்டும் எனும் மதிப்பு drag(event) எனும் function-ஆக இங்கு கொடுக்கப்பட்டுள்ளது. எனவே இந்தப் படத்தை நகர்த்தும் போது, இந்த function-க்குள் வரையறுக்கப்பட்டுள்ள விஷயங்களே நிகழ்த்தப்படும்.
+
+<div> tag-க்குள் உள்ள attributes-ன் விளக்கத்தைப் பின்வருமாறு காணலாம்.
+
+id = இதன் மூலம் இந்த divition-க்கு ‘rect’ எனப் பெயரிட்டுள்ளோம்.
+
+ondrop = இந்த divition-க்குள் ஏதேனும் ஒரு் object-ஐ கொண்டு வந்து விடும்போது என்ன நிகழ வேண்டும் எனும் மதிப்பு drop(event) எனும் function-ஆக கொடுக்கப்பட்டுள்ளது.
+
+ondragover = cursor- ஆல் ஏதேனும் ஒரு் object நகர்த்தப் பட்டுக்கொண்டிருக்கும் போது என்ன நிகழ வேண்டும் என்பது allowDrop(event) எனும் function-ஆக இங்கு கொடுக்கப் பட்டுள்ளது.
+
+மேற்கூறிய <img> மற்றும் <div> tags- ன் attributes-ல் கொடுக்கப்பட்டுள்ள functions அனைத்தும் <head>-க்குள் வரையறுக்கப்படும். இத்தகைய functions-ன் தொடக்கத்திலும் முடிவிலும் <script> எனும் இணை tags காணப்படும்.
+
+இப்போது ஒவ்வொரு function-க்குள்ளும் கொடுக்கப்பட்டுள்ள மதிப்பின் அர்தத்தைப் புரிந்து கொள்வோம்.
+
+Drag function: இதற்குள் image-ன் id மற்றும் அதன் datatype வரையறுக்கப்பட்டுள்ளது. இதற்கு datatransfer.setdata எனும் function பயன்பட்டுள்ளது. ev.target.id என்பது <img>-க்குள் நாம் கொடுத்துள்ள ‘COW’ எனும் மதிப்பினையும், “text” என்பது அதன் datatype- ஐயும் குறிக்கிறது.
+
+Allowdrop function: பொதுவாக வலைத்தளத்தில் ஒரு் object-ஐ நகர்த்த முடியாது. இதற்குள் பயன்படுத்தப்பட்டுள்ள preventDefault எனும் function இதுபோன்ற அடிப்படையான இயல்பினை மாற்றி அமைத்து, ஒரு் object-ஐ நகருமாறு செய்யும்.
+
+Drop function: இதில் பயன்படுத்தப்பட்டுள்ள datatransfer.getdata என்பது drag function-ல் datatransfer.setdata-ஆல் வரையறுக்கப்பட்ட மதிப்பினை பெற்றுக்கொள்ளும். பின்னர் அந்த மதிப்பினை target.appendChild எனும் function மூலமாக, நாம் உருவாக்கிய divition-க்குள் பொருத்திவிடும்.
+
+
+
+
+
+30
+
+
+Geolocation
+
+
+
+
+பூமியில் நாம் தற்போது இருக்கும் இடத்தைக் கண்டறிந்து வெளிக்காட்ட HTML5 பயன்படுத்தும் ஒரு் விஷயமே Geolocation ஆகும். உதாரணத்துக்கு நாம் சுற்றுலா சென்று கொண்டிருக்கும் போது, தற்போது எங்குள்ளோம் என்பதைத் தெரிந்து கொள்ள நமது அலைபேசியில் உள்ள MAP-ஐப் பயன்படுத்துவோம் அல்லவா? அதே போன்று ஒரு MAP-ஐ நாம் உருவாக்கப் போகும் application-லும் கொண்டு வர Geolocation பயன்படுகிறது. இது அட்சரேகை தீர்க்கரேகை ஆகியவற்றின் துணை கொண்டு நாம் இருக்கும் இடத்தைக் கண்டறிந்து அதனை MAP போன்ற ஒரு் வடிவில் வெளிப்படுத்தும். இதற்கான code பின்வருமாறு.
+
+
+
+File: Geolocation.htm
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<script>
+
+function showPosition(position) {
+
+var xy = position.coords.latitude + “,” + position.coords.longitude;
+
+var img_url = “http://maps.googleapis.com/maps/api/staticmap?center=”
+
++xy+”&zoom=14&size=400×300&sensor=false”;
+
+document.getElementById(“mapholder”).innerHTML = “<img src='”+img_url+”‘>”;
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<button onclick=”navigator.geolocation.getCurrentPosition(showPosition)”>Click It to get your position</button>
+
+<div id=”mapholder”></div>
+
+</body>
+
+</html>
+
+
+
+முதலில் body tag-க்குள் உள்ள <button> tag ஒரு் button-ஐ உருவாக்குவதற்கும், அதன் மீது சொடுக்கும்போது என்ன நிகழ வேண்டும் எனும் மதிப்பு அதன் onclick எனும் attribute-ன் மதிப்பாகவும் கொடுக்கப்பட்டுள்ளது. Onclick- ன் மதிப்பாக உள்ள getCurrentPosition() எனும் method, coords.latitude, coords.longitude எனும் மதிப்புகளை showPosition எனும் function-க்குள் அனுப்பி அதன் தொடர்ச்சியான வேலைகளைச் செய்கிறது.
+
+body tag-க்குள் அடுத்து உள்ள <div> tag, ‘mapholder’ எனும் ஒரு் divition-ஐ உருவாக்கியுள்ளது.
+
+இப்போது showPosition()-க்குள் என்ன நிகழ்கிறது என்பதைப் பார்க்கலாம். இந்த function பெற்றுக்கொண்ட latitude, longitude மதிப்புகளை xy எனும் variable- ல் செலுத்தி, பின்னர் அத்தனை Google Map-உடன் இணைத்துள்ளது. அதாவது img_url எனும் variable- ன் மதிப்பாக google map-ன் முகவரியைக் கொடுத்து, அதனுடன் xy இணைக்கப்பட்டுள்ளது.
+
+கடைசியாக நாம் உருவாக்கிய mapholder எனும் பகுதியை getElementById() மூலமாக எடுத்து, அதன் தொடர்ச்சியாக அளிக்கப்படும் innerHTML-ன் மதிப்பாக img_url variable-ஐ அளிப்பதன் மூலம் நாம் இருக்கும் இடம் Map-ல் வெளிப்படுத்தப்பட்டுள்ளது.
+
+
+
+
+
+இது error handling ஏதும் இல்லாத ஒரு் அடிப்படையான program ஆகும்.
+
+
+
+
+
+31
+
+
+Server Sent Events
+
+
+
+
+நாம் ஏதேனும் ஒரு் link-ஐ சொடுக்கும்போது, browser-ஆனது server-க்கு ஒரு் நிகழ்வினை அனுப்பி வைத்தது, நாம் சொடுக்கிய பக்கத்தைக் கேட்கும். இது client sent event-க்கு ஒரு் சிறந்த உதாரணம். அவ்வாறே ஒருசில நிகழ்ச்சிகள் server-யிடமிருந்து வந்து browser-ல் வெளிப்படும். உதாரணத்துக்கு ஏதேனும் ஒரு் வலைதளப் பக்கத்தில் நாம் வேலை பார்த்துக் கொண்டிருக்கும் போது திடீரென்று நம்மைக் கேட்காமலேயே ஒருசில செய்திகள் browser-ல் வெளிப்பட்டுக் கொண்டே இருக்கும் அல்லவா! அவையெல்லாம் Server Sent Events ஆகும்.
+
+இது போன்று Server-யிடமிருந்து தானாக வந்து browser-ல் வெளிப்படும் நிகழ்வுகளை எவ்வாறு உருவாக்குவது என்று பின்வருமாறு பார்க்கலாம்.
+
+
+
+File: SSE.html
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<script>
+
+var source = new EventSource(“demo_sse.php”);
+
+source.onmessage = function(event) {
+
+document.getElementById(“result”).innerHTML += event.data + “<br>”;
+
+};
+
+</script>
+
+</head>
+
+<body>
+
+<h1>Getting server updates</h1>
+
+<div id=”result”></div>
+
+</body>
+
+</html>
+
+
+
+இங்கு body tag-க்குள் புதிதாக ஏதும் இல்லை. வெறும் SSE-ஐ வெளிப்படுத்துவதற்கு result எனும் பெயரில் ஒரு் divition உருவாக்கப்பட்டுள்ளது. எனவே script tag-க்குள் என்ன நிகழ்கிறது என்பதைப் பார்ப்போம்.
+
+new EventSource() என்பது ஒவ்வொரு முறை demo_sse.php எனும் பக்கத்தில் server event நிகழும்போதும் அதனை எடுத்து source எனும் variable-ல் சேமிக்கும். பின்னர் அதன் மீது செயல்படும் onmessage எனும் நிகழ்வு, அதில் சேமிக்கப்படும் ஒவ்வொரு மதிப்பையும் ஒரு் function-க்குள் செலுத்தி SSE நிகழ்வினை வெளிப்படுத்தும்.
+
+Function(event) : இதில் உள்ள getElementById என்பது result எனும் divition-ஐ பெற்றுக்கொள்வதற்கும், அதன்மீது செயல்பட்டுள்ள innerHTML எனும் நிகழ்வு SSE-ஐ divition-க்குள் செலுத்துவதற்கும் பயன்பட்டுள்ளது.
+
+
+
+
+
+32
+
+
+முடிவுரை
+
+
+
+
+இந்த நூலில் HTML4, HTML5 அகியவற்றின் அடிப்படைகளை மட்டுமே பார்த்துள்ளோம்.
+
+இன்னும் இந்த நூலில் எழுதப் படாதவை பல. அவற்றை வாசகர்கள் இணையத்தில் தேடி, அறிந்து கொள்ள இந்த நூல் ஆர்வத்தைத் தூண்டும் என நம்புகிறேன்.
+
+
+
+பின்வரும் இணைப்புகள் மிகவும் பயனுள்ளதாக இருக்கும்.
+
+
+
+www.w3schools.com/html/default.asp
+
+
+
+http://howtocodeinhtml.com/
+
+
+
+http://www.geekchamp.com/html5-tutorials/introduction
+
+
+
+
+
+HTML உடன் Cascading Style Sheets (css) மற்றும் Javascript ஐயும் கற்று, சிறந்த இணையதளங்களை உருவாக்கி மகிழுங்கள் !
+
+
+
+
+
+33
+
+
+ஆசிரியர் பற்றி
+
+
+
+
+து. நித்யா
+
+
+
+கணிணி நுட்பங்களை தமிழில் எழுதி வருகிறேன். Cognizant Technologies Solutions நிறுவனத்தில், Datawarehouse Testing துறையில் பணிபுரிகிறேன்.
+
+
+
+“தேமதுரத் தமிழோசை உலகெல்லாம் பரவும் வகை செய்தல் வேண்டும்”
+
+“பிற நாட்டு நல்லறிஞர் சாத்திரங்கள் தமிழ் மொழியிற் பெயர்த்தல் வேண்டும்”
+
+என்ற பாரதியின் விருப்பங்களை நிறைவேற்றுவதில், ன் பங்களிப்பும் உள்ளது என்பதே, மிகவும் மகிழ்ச்சி.
+
+
+
+இப்போது இங்கிலாந்தில் பணிக்காக உள்ளேன்.
+
+மின்னஞ்சல் – nithyadurai87@gmai.com
+
+வலைப்பதிவு – http://nithyashrinivasan.wordpress.com
+
+
+
+
+
+34
+
+
+ஆசிரியரின் பிற மின்னூல்கள்
+
+
+
+
+
+‘
+
+
+
+http://freetamilebooks.com/ebooks/learn-mysql-in-tamil/
+
+http://freetamilebooks.com/ebooks/learn-gnulinux-in-tamil-part1/
+
+http://freetamilebooks.com/ebooks/learn-gnulinux-in-tamil-part2/
+
+http://freetamilebooks.com/ebooks/learn-mysql-in-tamil-part-2/
+
+
+
+
+
+35
+
+
+கணியம் பற்றி
+
+
+
+
+
+இலக்குகள்
+
+
+கட்டற்ற கணிநுட்பத்தின் எளிய விஷயங்கள் தொடங்கி அதிநுட்பமான அம்சங்கள் வரை அறிந்திட விழையும் எவருக்கும் தேவையான தகவல்களை தொடர்ச்சியாகத் தரும் தளமாய் உருபெறுவது.
+
+உரை, ஒலி, ஒளி என பல்லூடக வகைகளிலும் விவரங்களை தருவது.
+
+இத்துறையின் நிகழ்வுகளை எடுத்துரைப்பது.
+
+எவரும் பங்களிக்க ஏதுவாய் யாவருக்குமான நெறியில் விவரங்களை வழங்குவது.
+
+அச்சு வடிவிலும், புத்தகங்களாகவும், வட்டுக்களாகவும் விவரங்களை வெளியிடுவது.
+
+
+
+
+
+பங்களிக்க
+
+
+விருப்பமுள்ள எவரும் பங்களிக்கலாம்.
+
+கட்டற்ற கணிநுட்பம் சார்ந்த விஷயமாக இருத்தல் வேண்டும்.
+
+பங்களிக்கத் தொடங்கும் முன்னர் கணியத்திற்கு உங்களுடைய பதிப்புரிமத்தை அளிக்க எதிர்பார்க்கப்படுகிறீர்கள்.
+
+editor@kaniyam.com முகவரிக்கு கீழ்க்கண்ட விவரங்களடங்கிய மடலொன்றை உறுதிமொழியாய் அளித்துவிட்டு யாரும் பங்களிக்கத் தொடங்கலாம். மடலின் பொருள்: பதிப்புரிமம் அளிப்பு
+
+மடல் உள்ளடக்கம்என்னால் கணியத்திற்காக அனுப்பப்படும் படைப்புகள் அனைத்தும் கணியத்திற்காக முதன்முதலாய் படைக்கப்பட்டதாக உறுதியளிக்கிறேன்.
+
+இதன்பொருட்டு எனக்கிருக்கக்கூடிய பதிப்புரிமத்தினை கணியத்திற்கு வழங்குகிறேன்.
+
+உங்களுடயை முழுப்பெயர், தேதி.
+
+
+
+
+
+தாங்கள் பங்களிக்க விரும்பும் ஒரு பகுதியில் வேறொருவர் ஏற்கனவே பங்களித்து வருகிறார் எனின் அவருடன் இணைந்து பணியாற்ற முனையவும்.
+
+கட்டுரைகள் மொழிபெயர்ப்புகளாகவும், விஷயமறிந்த ஒருவர் சொல்லக் கேட்டு கற்று இயற்றப்பட்டவையாகவும் இருக்கலாம்.
+
+படைப்புகள் தொடர்களாகவும் இருக்கலாம்.
+
+தொழில் நுட்பம், கொள்கை விளக்கம், பிரச்சாரம், கதை, கேலிச்சித்திரம், நையாண்டி எனப் பலசுவைகளிலும் இத்துறைக்கு பொருந்தும்படியான ஆக்கங்களாக இருக்கலாம்.
+
+தங்களுக்கு இயல்பான எந்தவொரு நடையிலும் எழுதலாம்.
+
+தங்களது படைப்புகளை எளியதொரு உரை ஆவணமாக editor@kaniyam.com முகவரிக்குஅனுப்பிவைக்கவும்.
+
+தள பராமரிப்பு, ஆதரவளித்தல் உள்ளிட்ட ஏனைய விதங்களிலும் பங்களிக்கலாம்.
+
+ஐயங்களிருப்பின் editor@kaniyam.com மடலியற்றவும்.
+
+
+
+
+
+விண்ணப்பங்கள்
+
+
+கணித் தொழில்நுட்பத்தை அறிய விழையும் மக்களுக்காக மேற்கொள்ளப்படும் முயற்சியாகும் இது.
+
+இதில் பங்களிக்க தாங்கள் அதிநுட்ப ஆற்றல் வாய்ந்தவராக இருக்க வேண்டும் என்ற கட்டாயமில்லை.
+
+தங்களுக்கு தெரிந்த விஷயத்தை இயன்ற எளிய முறையில் எடுத்துரைக்க ஆர்வம் இருந்தால் போதும்.
+
+இதன் வளர்ச்சி நம் ஒவ்வொருவரின் கையிலுமே உள்ளது.
+
+குறைகளிலிருப்பின் முறையாக தெரியப்படுத்தி முன்னேற்றத்திற்கு வழி வகுக்கவும்.
+
+
+
+
+
+வெளியீட்டு விவரம்
+
+
+பதிப்புரிமம் © 2013 கணியம்.
+
+கணியத்தில் வெளியிடப்படும் கட்டுரைகள் http://creativecommons.org/licenses/by-sa/3.0/ பக்கத்தில் உள்ள கிரியேடிவ் காமன்ஸ் நெறிகளையொத்து வழங்கப்படுகின்றன.
+
+இதன்படி,
+
+கணியத்தில் வெளிவரும் கட்டுரைகளை கணியத்திற்கும் படைத்த எழுத்தாளருக்கும் உரிய சான்றளித்து, நகலெடுக்க, விநியோகிக்க, பறைசாற்ற, ஏற்றபடி அமைத்துக் கொள்ள, தொழில் நோக்கில் பயன்படுத்த அனுமதி வழங்கப்படுகிறது.
+
+ஆசிரியர்: த. சீனிவாசன் – editor@kaniyam.com +91 98417 95468
+
+கட்டுரைகளில் வெளிப்படுத்தப்படும் கருத்துக்கள் கட்டுரையாசிரியருக்கே உரியன.
+
+
+
+
+
+36
+
+
+நன்கொடை
+
+
+
+
+Creative Commons உரிமையில், யாவரும் இலவசமாகப் பகிரும் வகையில் தமது நூல்களை வெளியிடும் எழுத்தாளரை உங்கள் நன்கொடைகள் ஊக்குவிக்கும்.
+
+வங்கி விவரங்கள்.
+
+Name – Nithya Duraisamy
+
+ICICI – 006101540799
+
+Branch – Mcity branch, chengalpattu.
+
+IFSC code – ICIC0000061
+
+
+
+
+

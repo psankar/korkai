@@ -1,0 +1,2134 @@
+எளிய தமிழில் CSS
+
+
+
+
+
+து.நித்யா
+
+
+
+
+
+Cascading Style Sheets இணையப் பக்கங்களை அழகாக வடிவமைக்கும் ஒரு நுட்பம். கணினிக்கேற்ற வலை வடிவமைப்போடு கைபேசிக் கருவிகளுக்கான வலைத்தளங்கள், செயலிகள் உருவாக்கத்திலும் CSS பெரும்பங்கு வகிக்கிறது.
+
+
+
+இதை, இந்த நூல் எளிமையாக அறிமுகம் செய்கிறது.
+
+
+
+தமிழில் கட்டற்ற மென்பொருட்கள் பற்றிய தகவல்களை "கணியம்" மின் மாத இதழ், 2012 முதல் வெளியிட்டு வருகிறது.இதில் வெளியான CSS பற்றிய கட்டுரைககளை இணைத்து ஒரு முழு புத்தகமாக வெளியிடுவதில் பெரு மகிழ்ச்சி கொள்கிறோம்.
+
+
+
+உங்கள் கருத்துகளையும், பிழை திருத்தங்களையும் editor@kaniyam.com க்கு மின்னஞ்சல் அனுப்பலாம்.
+
+
+
+http://kaniyam.com/learn-css-in-tamil-ebook என்ற முகவரியில் இருந்து இந்த நூலை பதிவிறக்கம் செய்யலாம். உங்கள் கருத்துகளையும் இங்கே பகிரலாம்.
+
+
+
+படித்து பயன் பெறவும், பிறருடன் பகிர்ந்து மகிழவும் வேண்டுகிறோம்.
+
+
+
+கணியம் இதழை தொடர்ந்து வளர்க்கும் அனைத்து அன்பர்களுக்கும் எமது நன்றிகள்.
+
+
+
+
+
+த.சீனிவாசன்
+
+tshrinivasan@gmail.com
+
+
+
+ஆசிரியர்
+
+கணியம்
+
+editor@kaniyam.com
+
+
+
+
+
+எளிய தமிழில் CSS
+
+
+
+முதல் பதிப்பு ஜனவரி 2016
+
+பதிப்புரிமம் © 2016 கணியம்.
+
+
+
+ஆசிரியர் - து.நித்யா - nithyadurai87@gmail.com
+
+பிழை திருத்தம்: த.சீனிவாசன் - tshrinivasan@gmail.com
+
+வடிவமைப்பு: த.சீனிவாசன்
+
+
+
+
+
+அட்டைப்படம் - மனோஜ் குமார் - socrates1857@gmail.com
+
+
+
+இந்த நூல் கிரியேடிவ் காமன்ஸ் என்ற உரிமையில் வெளியிடப்படுகிறது . இதன் மூலம், நீங்கள்
+
+யாருடனும் பகிர்ந்து கொள்ளலாம்.
+
+
+
+திருத்தி எழுதி வெளியிடலாம்.
+
+
+
+வணிக ரீதியிலும்யன்படுத்தலாம்.
+
+
+
+
+
+ஆனால், மூலப் புத்தகம், ஆசிரியர் மற்றும் www.kaniyam.com பற்றிய விவரங்களை சேர்த்து தர வேண்டும். இதே உரிமைகளை யாவருக்கும் தர வேண்டும். கிரியேடிவ் காமன்ஸ் என்ற உரிமையில் வெளியிட வேண்டும்.
+
+
+
+நூல் மூலம் :
+
+http://static.kaniyam.com/ebooks/learn-css-in-tamil/learn-css-in-tamil.odt
+
+
+
+
+
+License
+
+
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 Unported License.
+
+
+
+
+
+அழகான இணைய தள வடிவமைப்புகளின் அடிப்படைகளைப் பற்றி கற்க முற்பட்டபோது http://www.csszengarden.com என்ற தளத்தைப் பற்றி அறிந்தேன். சில பத்திகளைக் கொண்ட ஒரு வலைப்பக்கத்திற்கு CSS எனும் நுட்பம் மூலம் பலநூறு அழகிய வடிவமைப்புகள் உருவாக்கப்பட்டு வருவதைக் கண்டு வியந்தேன்.
+
+
+
+நான் CSS கற்ற போது எழுதிய குறிப்புகளைக் கொண்டு கணியம் இதழில் தொடராக எழுதினேன். அதே தொடர் இப்போது மின்னூலாக வெளியிடப்படுவது மிக்க மகிழ்ச்சி.
+
+
+
+தமிழில் கணிணி நுட்பங்களைப் பகிர, ஒரு களமாக உள்ள 'கணியம்' தளத்தில், இதுவரை வெளியான எனது மின்னூல்களுக்கு வாசகர்கள் தரும் ஆதரவு பெருமகிழ்ச்சி அளிக்கிறது.
+
+
+
+“தேமதுரத் தமிழோசை உலகெல்லாம் பரவும் வகை செய்தல் வேண்டும்”
+
+“பிற நாட்டு நல்லறிஞர் சாத்திரங்கள் தமிழ் மொழியிற் பெயர்த்தல் வேண்டும்”
+
+
+
+என்ற பாரதியின் விருப்பங்களை நிறைவேற்றுவதில், என் பங்களிப்பும் உள்ளது என்பதே, மிகவும் மகிழ்ச்சி.
+
+
+
+தொடர்ந்து ஊக்கம் அளிக்கும் என் குடும்பத்தினருக்கும், கணியம் குழுவினருக்கும், FreeTamilEbooks.com குழுவினருக்கும், வாசகர்களுக்கும் நன்றிகள்.
+
+
+
+
+
+து. நித்யா
+
+மான்செஸ்டர்,
+
+இங்கிலாந்து.
+
+
+
+3 ஜனவரி 2015
+
+
+
+
+
+மின்னஞ்சல்: nithyadurai87@gmail.com
+
+வலை பதிவு: http://nithyashrinivasan.wordpress.com
+
+
+
+
+
+பொருளடக்கம்
+
+
+
+1 Cascading Style Sheets 10
+
+1.1 HTML without CSS 11
+
+1.2 Internal style sheet 13
+
+1.3 External style sheet 15
+
+1.4 Inline style sheet 17
+
+1.5 Multiple style sheet 18
+
+2 Text 22
+
+3 Font 25
+
+4 Links 27
+
+5 Lists 29
+
+6 Tables 33
+
+7 Divisions 36
+
+8 Body background 40
+
+9 Positioning 46
+
+10 Combinators 51
+
+11 Gallery 58
+
+12 CSS3 64
+
+13 Transitions 64
+
+14 Animations 66
+
+15 Multiple Columns 69
+
+16 Re-sizing 71
+
+17 Shadows 72
+
+18 Border Radius 74
+
+19 Gradients 76
+
+20 Displaying Texts 78
+
+21 முடிவுரை 82
+
+22 ஆசிரியர் பற்றி 83
+
+23 ஆசிரியரின் பிற மின்னூல்கள் 84
+
+24 கணியம் பற்றி 86
+
+25 நன்கொடை 89
+
+
+
+
+
+Cascading Style Sheets
+
+
+
+
+Cascading Style Sheets என்பதே CSS என்றழைக்கப்படுகிறது. இது HTML மூலம் உருவாக்கப்படும் வலைத்தளப் பக்கங்களை இன்னும் அழகுபடுத்த உதவும் ஒரு் சிறப்பு வகை நிரல் ஆகும். அதாவது HTML-ல் font color, size, bgcolor என்பது போன்ற பல்வேறு வகையான attributes-ஐப் பயன்படுத்தி நாம் விரும்பும் நிறம் வடிவம், அளவு போன்ற சில குறிப்பிட்ட விவரங்களைக் கொடுப்போம். மேலும் ஒவ்வொரு பக்கத்திற்கும் இத்தகைய விவரங்களை நாம் இணைக்க வேண்டியிருக்கும். அதனால் இவ்வாறு அமைக்கும்போது HTML நிரல் படிப்பதற்கும் பார்பதற்கும் மிகவும் கடினமாகத் தெரியும். இதனைத் தவிர்ப்பதற்காக வந்ததே CSS ஆகும்.
+
+
+
+அதாவது அழகு சார்ந்த சின்னச்சின்ன விஷயங்களெல்லாம் CSS file-லிலும், அடிப்படையான முக்கிய விஷயங்கள் அனைத்தும் HTML file-லிலும் சேமிக்கப்படும். பின்னர் HTML file-ல் css file-ஐ இணைப்பதன் மூலம் எளிமையான முறையில் ஓர் அழகிய வலைதளத்தை உருவாக்க முடியும்.
+
+
+
+ஒரு html file-ல் css file இணைக்கப்படுவதை 4 விதங்களில் அமைக்கலாம். அவை,
+
+External style sheet
+
+
+
+Internal style sheet
+
+
+
+Inline style sheet
+
+
+
+Multiple style sheet
+
+
+
+
+
+முதலில் style sheets எதையும் பயன்படுத்தாமல் வெறும் html நிரலை மட்டுமே பயன்படுத்தி ஒரு வலைத்தளத்தை உருவாக்குவோம். பின்னர் அதே வலைத்தளத்தை css-ஐப் பயன்படுத்தி எவ்வாறு உருவாக்குவது என்று பார்க்கலாம்.
+
+
+
+
+
+HTML without CSS
+
+
+இங்கு css எதையும் பயன்படுத்தவில்லை. வெறும் html நிரலை பயன்படுத்தி மட்டுமே ஒரு வலைத்தளத்தை உருவாக்கியுள்ளோம்.
+
+
+
+<html>
+
+<head></head>
+
+<body bgcolor='skyblue'>
+
+<h1 align='center'><font color="blue" size=18 face="Arial">
+
+<u>Most children love being told Nursery Rhymes</u></font></h1>
+
+<p><i><font color="green" size=18 face="Times New Roman">
+
+The most popular rhymes are listed here. Even elders love to hear these rhymes.
+
+The list is clearly not exhaustive but it is believed that a good cross section
+
+of famous poems for children have been included.</font></i></p>
+
+</body>
+
+</html>
+
+
+
+
+
+இங்கு <h1> , <p> - க்குள் உள்ளவை என்னென்ன விதங்களில் அமைக்கப்பட வேண்டும் எனும் விவரங்களெல்லாம் அந்தந்த tag-க்குள்ளேயே கொடுக்கப்பட்டுள்ளது. உதாரணத்துக்கு அடிக்கோடிட <u>, சாய்வெழுத்தில் அமைக்க <i>, குறிப்பிட்ட நிறத்திலும் வடிவத்திலும் அமைக்க <font> ஆகிய அனைத்தும் அந்தந்த <h1> , <p> tag-க்குள்ளேயே கொடுக்கப்பட்டுள்ளது. இதனால் html நிரல் பார்ப்பதற்கு சற்று கடினமாகவும் குழப்பும் வகையிலும் உள்ளது.
+
+
+
+இதன் output பின்வருமாறு.
+
+
+
+
+
+Internal style sheet
+
+
+Internal style sheet-ஐப் பயன்படுத்தி மேற்கண்ட அதே வலைதளத்தை உருவாக்குவதற்கான நிரல் பின்வருமாறு அமையும்.
+
+
+
+<html>
+
+<head>
+
+<style>
+
+body {background-color:skyblue;}
+
+h1 {text-align:center;text-decoration:underline;color:blue;font-family:Arial;font-size=36pt;}
+
+p{font-style:italic;color:green;font-size=36pt;}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Most children love being told Nursery Rhymes</h1>
+
+<p>The most popular rhymes are listed here. Even elders love to hear these rhymes.
+
+The list is clearly not exhaustive but it is believed that a good cross section
+
+of famous poems for children have been included.</p>
+
+</body>
+
+</html>
+
+
+
+
+
+இங்கு <h1> , <p> - க்குள் உள்ளவை என்னென்ன விதங்களில் அமைக்கப்பட வேண்டும் எனும் விவரங்களெல்லாம் தனியாக <style> tag - க்குள் கொடுக்கப்பட்டிருப்பதை கவனிக்கவும். இது எப்போதும் <head> tag - க்குள் அமையும்.
+
+
+
+h1, p -ன் மதிப்புகள் அனைத்தையும் { } -க்குள் கொடுக்க வேண்டும். இதற்குள் உள்ள மதிப்புகள் { மாற்ற-வேண்டியது:மதிப்பு ; மாற்ற-வேண்டியது:மதிப்பு ; மாற்ற-வேண்டியது:மதிப்பு ; } எனும் விதத்தில் அமையும்.
+
+
+
+உதாரணத்துக்கு அடிக்கோடிட <u>-க்கு பதிலாக text-decoration:underline எனவும், சாய்வெழுத்தில் அமைக்க <i>-க்கு பதிலாக font-style:italic எனவும் கொடுக்கப்பட்டுள்ளது. இவையே css-ல் நாம் கற்க வேண்டிய புதிய விஷயங்கள் ஆகும்.
+
+
+
+
+
+External style sheet
+
+
+External style sheet-ஐப் பயன்படுத்தி மேற்கண்ட அதே வலைதளத்தை உருவாக்குவதற்கான நிரல் பின்வருமாறு அமையும்.
+
+
+
+
+
+<html>
+
+<head><link rel="stylesheet" type="text/css" href="nithya.css"></head>
+
+<body>
+
+<h1>Most children love being told Nursery Rhymes</h1>
+
+<p>The most popular rhymes are listed here. Even elders love to hear these rhymes.
+
+The list is clearly not exhaustive but it is believed that a good cross section
+
+of famous poems for children have been included.</p>
+
+</body>
+
+</html>
+
+
+
+
+
+இங்கு <style> என்ற ஒன்று <head> tag - க்குள் பயன்படுத்தப்படவில்லை. ஆனால் அதற்கு பதிலாக <link> பயன்படுத்தப்பட்டுள்ளது. இதன் பண்புகளான rel, type, href-ல் நமது stylesheet பற்றிய விவரங்களைக் கொடுக்க வேண்டும்.
+
+
+
+அதாவது Internal style sheet-ல் <style>-க்குள் கொடுக்கப்படும் மதிப்புகள் அனைத்தையும் தனியாக ஒரு file-ல் கொடுத்து அதனை .css என்று சேமிக்க வேண்டும். இங்கு நான் <h1> , <p> - க்குள் உள்ளவை என்னென்ன விதங்களில் அமைக்கப்பட வேண்டும் எனும் விவரங்களெல்லாம் தனியாக nithya.css எனும் file-ல் சேமித்து அதனை <link>- ல் இணைத்துள்ளேன். இதுவே external style sheet ஆகும்.
+
+nithya.css-ல் உள்ள நிரல் பின்வருமாறு.
+
+
+
+
+
+Inline style sheet
+
+
+Inline style sheet-ஐப் பயன்படுத்தி மேற்கண்ட அதே வலைதளத்தை உருவாக்குவதற்கான நிரல் பின்வருமாறு அமையும்.
+
+
+
+<html>
+
+<head></head>
+
+<body style="background-color:skyblue;">
+
+<h1 style="text-align:center;text-decoration:underline;color:blue;font-family:Arial;font-size=36pt;">
+
+Most children love being told Nursery Rhymes</h1>
+
+<p style="font-style:italic;color:green;font-size=36pt;">
+
+The most popular rhymes are listed here. Even elders love to hear these rhymes.
+
+The list is clearly not exhaustive but it is believed that a good cross section
+
+of famous poems for children have been included.</p>
+
+</body>
+
+</html>
+
+
+
+
+
+இங்கு <h1> , <p> - க்குள் உள்ளவை என்னென்ன விதங்களில் அமைக்கப்பட வேண்டும் எனும் விவரங்களெல்லாம் அந்தந்த tag-க்குள்ளேயே கொடுக்கப்பட்டுள்ளது. இதற்கும் வெறும் html நிரல்-க்கும் உள்ள ஒரே வித்தியாசம் என்னவெனில் <u> , <i> என்று html மொழிகளைப் பயன்படுத்தாமல் {text-decoration:underline ; font-style:italic} என்று css மொழிகளைப் பயன்படுத்தியுள்ளது.
+
+
+
+
+
+Multiple style sheet
+
+
+Multiple style sheet என்பது inline, internal, external ஆகியவைகளின் கலவை ஆகும். பின்வரும் உதாரணத்தில் inline, internal , external ஆகிய 3 விதங்களிலும் css இணைக்கப்பட்டிருப்பதைக் காணலாம்.
+
+
+
+
+
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="nithya.css">
+
+<style>
+
+body {background-color:skyblue;}
+
+h1 {font-family:Times New Roman;}
+
+p{font-style:italic;color:green;font-size=36pt;}
+
+</style>
+
+</head>
+
+<body style="background-color:skyblue;">
+
+<h1>Most children love being told Nursery Rhymes</h1>
+
+<p style="color:red;font-size=36pt;">
+
+The most popular rhymes are listed here. Even elders love to hear these rhymes.
+
+The list is clearly not exhaustive but it is believed that a good cross section
+
+of famous poems for children have been included.</p>
+
+</body>
+
+</html>
+
+
+
+
+
+இங்கு <h1> - க்குள் உள்ள எழுத்துக்களின் வடிவம் Times New Roman-ஆக இருக்க வேண்டும் என்பது internal css-லும் அவற்றின் நிறம் மற்றும் அளவு external css-லும் கொடுக்கப்பட்டுள்ளது. அவ்வாறே <p> - க்குள் உள்ள எழுத்துக்களின் நிறம் inline css-ல் சிவப்பாகவும் internal css-ல் பச்சையாகவும் கொடுக்கப்பட்டுள்ளதை கவனிக்கவும். இத்தகைய நிலையில் inline css-ல் உள்ள மதிப்பினை மட்டுமே எடுத்துக்கொண்டு internal, external-ல் உள்ள மதிப்புகளை புறக்கணித்துவிடும். அதாவது மதிப்புகளை inline, internal, external எனும் வரிசை முறையில் எடுத்துக்கொள்ளும். இதுவே multiple style sheet ஆகும்.
+
+
+
+
+
+சென்ற புத்தகத்தில் ( எளிய தமிழில் HTML - http://www.kaniyam.com/learn-html-in-tamil/ ) Text, font, links, list, tables மற்றும் சில விஷயங்களை எவ்வாறு HTML கொண்டு வெளிப்படுத்துவது என்று பார்த்தோம். இந்தப் புத்தகத்தில் அவை எல்லாவற்றையும் CSS கொண்டு எவ்வாறு அழகாக்குவது என்று பார்க்கலாம்.
+
+
+
+
+
+Text
+
+
+color என்பது எழுத்துக்களின் நிறத்தைக் குறிக்க உதவும். பின்வரும் 3 விதங்களில் இதன் மதிப்பைக் கொடுக்கலாம் : HEX மதிப்பாகக் கொடுக்கலாம் (e.g: "#ff0000") , ஒரு RGB மதிப்பாகக் கொடுக்கலாம் (e.g: "rgb(255,0,0)") அல்லது ஒரு நிறத்தின் பெயரையே கூட கொடுக்கலாம். (e.g: "red").
+
+
+
+text-align என்பது எழுத்துக்களை ஒரே பக்கமாக ஒதுங்குபடுத்த உதவுகிறது. இதன் மதிப்பு Left என்று இருந்தால் இடப்பக்கத்திலும், Right என்று இருந்தால் வலப்பக்கத்திலும், center என்று இருக்கும்போது மையத்திலும் எழுத்துக்களை ஒதுங்குபடுத்துகிறது. Justify எனும் மதிப்பு இடப்பக்க, வலப்பக்க margin-களுக்கிடையில் எழுத்துக்களை சமப்படுத்தி ஒரே அளவில் வெளிப்படுத்தும்.
+
+
+
+text-decoration என்பது ஒருவிஷயத்தை எழுதி அதை மற்றவர்களுக்குத் தெரியும் படியாக அடிப்பதற்கோ அல்லது link-ல் இருக்கும் அடிக்கோட்டினை எடுப்பதற்கோ பொதுவாகப் பயன்படும்.
+
+
+
+text-transform என்பது மொத்தமாக எழுத்துக்களை ஒரே முறையில் மாற்ற உதவும். இதன் மதிப்பு uppercase என்று இருந்தால் அனைத்து எழுத்துக்களையும் பெரிய எழுத்திலும், lowercase எனில் அனைத்தையும் சிறிய எழுத்திலும், Capitalize என்று இருக்கும்போது ஒவ்வொரு வரியின் முதல் எழுத்தை மட்டும் பெரிதாகவும் மற்றதெல்லாம் சிறியதாகவும் அமைக்கும்.
+
+
+
+
+
+text-indent என்பது அதன் மதிப்பினைப் பொறுத்து (eg. 50px) எழுத்துக்களை அவ்வளவு இடைவெளி விட்டு தள்ளி அமைக்கும்.
+
+
+
+மேற்கண்ட அனைத்து விஷயங்களையும் வைத்து உருவாக்கப்பட்ட ஒரு HTML program-ஐ பின்வரும் உதாரணத்தில் காணலாம்.
+
+
+
+<html>
+
+<head>
+
+<style>
+
+p.first {color:green; text-decoration:overline; text-transform:uppercase; text-indent:50px;}
+
+p.second {color:#0000ff; text-align:right; text-decoration:line-through; text-transform:lowercase;}
+
+p.third {color:rgb(255,0,0); text-align:center; text-decoration:underline; text-decoration:capitalize;}
+
+</style>
+
+</head>
+
+<body>
+
+<p class=”first”> Dont Giveup! Keep on Trying! </p>
+
+<p class=”second”>Even through it seems to be impossible, It will happen in your life one day. </p>
+
+<p class=”third”> All the very best Friends! Wait to receive the surprises in your life!!!!!!</p>
+
+</body>
+
+</html>
+
+
+
+
+
+Font
+
+
+
+
+font-family என்பது எழுத்துக்களின் வகையைக் குறிப்பிட உதவும். இதன் மதிப்பாக பல எழுத்து வகையைக் குறிப்பிடுவதன் மூலம் ("Times New Roman", Times, serif), முதல் மதிப்பு இல்லையெனில் இரண்டாவது வகையிலும், இரண்டாவதும் இல்லையெனில் 3-வது வகையிலும் எழுத்துக்களை வெளிப்படுத்தும்.
+
+
+
+font-style என்பது எழுத்துவகை எவ்விதத்தில் வெளிப்பட வேண்டும் என்பதைக் குறிக்கும். இது Normal, Italic, Bold, Oblique என்பது போன்ற மதிப்பினைப் பெற்று விளங்கும்.
+
+
+
+font-size என்பது எழுத்துக்களின் அளவினைக் குறிக்கும். இது px-அலகிலோ அல்லது em-அலகிலோ குறிப்பிடப்படும்.
+
+
+
+மேற்கண்ட அனைத்து விஷயங்களையும் வைத்து உருவாக்கப்பட்ட ஒரு HTML program-ஐ பின்வரும் உதாரணத்தில் காணலாம்.
+
+
+
+
+
+<html>
+
+<head>
+
+<style>
+
+p.first {font-family:”Tiems New Roman”, Times, serif; font-style:normal; font-size:10;}
+
+p.second {font-style:italic; font-size:20;}
+
+p.third {font-style:bold; font-size:30;}
+
+</style>
+
+</head>
+
+<body>
+
+<p class=”first”> Dont Giveup! Keep on Trying! </p>
+
+<p class=”second”>Even through it seems to be impossible, It will happen in your life one day. </p>
+
+<p class=”third”> All the very best Friends! Wait to receive the surprises in your life!!!!!!</p>
+
+</body>
+
+</html>
+
+
+
+
+
+Links
+
+
+
+
+ஒரு link-ஐ அழகுபடுத்த color, font-family, font size என்று மேற்கூறிய அனைத்து விஷயங்களையும் பயன்படுத்தலாம். இவை அனைத்தும் கீழ்வரும் நான்கு விதங்களுக்குள் வரையறுக்கப்படும்.
+
+
+
+a:link = ஒரு link எவ்வாறு இருக்க வேண்டும் என்பதை வரையறுக்கிறது.
+
+
+
+a:hover = Mouse cursor-ஐ அந்த link-ன் அருகே கொண்டு செல்லும்போது அந்த link எவ்வாறு காட்சியளிக்க வேண்டும் என்பது இங்கு வரையறுக்கப்படுகிறது.
+
+
+
+a:active = அந்த link-ன் மீது சொடுக்கும்போது அது எவ்வாறு காட்சியளிக்க வேண்டும் என்பது இங்கு வரையறுக்கப்படுகிறது.
+
+
+
+a:visited = அந்த link-ஐ சொடுக்கியபின் அது எவ்வாறு காட்சியளிக்க வேண்டும் என்பது இங்கு வரையறுக்கப்படுகிறது.
+
+
+
+<html>
+
+<head>
+
+<style>
+
+a:hover {color:red;background-color:yellow;}
+
+a:active {color:white;background-color:black;}
+
+</style>
+
+</head>
+
+<body>
+
+<a href=”http://www.kaniyam.com/mysql-book-in-tamil/” target=”_blank”> Click here for MYSQL book </a>
+
+</body>
+
+</html>
+
+
+
+
+
+Lists
+
+
+
+
+பொதுவாக HTML-ல் Ordered list என்பது 1,2,3... என வரிசைப்படுத்தப்பட்டும், Unordered list என்பது புள்ளிகள் மூலம் வரிசைப்படுத்தப்பட்டும் காணப்படும். ஆனால் CSS-ல் அவற்றையெல்லாம் நாம் விரும்பும் முறையில் வரிசைப்படுத்த முடியும். ஒரு குட்டி படத்தைக் கொண்டோ அல்லது, (a,b,c...), (I, II, III) , (A,B,C..) என்பது போன்று எந்த வகையில் வேண்டுமானாலும் வரிசைப்படுத்தலாம். இது பின்வருமாறு .
+
+
+
+<html>
+
+<head>
+
+<style>
+
+ol li {list-style-type:upper-roman;}
+
+ol li {list-style-type:circle;}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+Types of Testing
+
+<ol>
+
+<li>Functional Testing</li>
+
+<li>Non-functional Testing</li>
+
+</ol>
+
+
+
+Types of non-functional testing
+
+<ul>
+
+<li>Performance Testing</li>
+
+<li>Automation Testing</li>
+
+</ul>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+list-type-style என்பது list-ல் உள்ளவை எந்த வரிசைமுறையில் வெளிப்பட வேண்டும் என்பதைக் குறிக்கும்.
+
+
+
+Visibility என்பது ஒரு விஷயம் வெளிப்பட வேண்டுமா இல்லையா என்பதை முடிவு செய்யும். இதன் மதிப்பு hidden என்றிருந்தால் அந்த விஷயம் வெளிப்படாமல் அதற்கான காலியிடம் மட்டுமே வெளிப்படும்.
+
+
+
+Display என்பதன் மதிப்பு Inline என்றிருக்கும் போது list-ல் உள்ளவை ஒன்றன் கீழ் ஒன்றாக வெளிப்படாமல் அடுத்தடுத்து தொடர்ச்சியாக வெளிப்படும்.
+
+
+
+<html>
+
+<head>
+
+<style>
+
+ol li {visibility: hidden;}
+
+ol li {display: inline;}
+
+</style>
+
+</head>
+
+<body>
+
+
+
+Types of Testing
+
+<ol>
+
+<li>Functional Testing</li>
+
+<li>Non-functional Testing</li>
+
+</ol>
+
+
+
+Types of non-functional testing
+
+<ul>
+
+<li>Performance Testing</li>
+
+<li>Automation Testing</li>
+
+</ul>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+Tables
+
+
+CSS-ல் tables-ஐ அழகுபடுத்த அவற்றின் ஒவ்வொரு அங்கங்களும் தனித்தனியாகக் குறிப்பிடப்படுகின்றன. பின்வரும் உதாரணத்தில் table எவ்வாறு இருக்க வேண்டும், table heading எவ்வாறு இருக்க வேண்டும், table data எவ்வாறு இருக்க வேண்டும் என்று தனித்தனியே குறிப்பிடப்பட்டுள்ளது.
+
+
+
+<html>
+
+<head>
+
+<style>
+
+table {width:”60%”; height: “40%”; border: 3px solid red;}
+
+th {border: 2px solid green;}
+
+td {border: 1px solid orange;}
+
+</style>
+
+</head>
+
+<body> <table>
+
+
+
+<tr>
+
+<th>Name</th>
+
+<th>Marks</th>
+
+<th>Rank</th>
+
+</tr>
+
+
+
+<tr>
+
+<th>Viyan</th>
+
+<th>1200/1200</th>
+
+<th>First</th>
+
+</tr>
+
+
+
+<tr>
+
+<th>Harini</th>
+
+<th>1180/1200</th>
+
+<th>Second</th>
+
+</tr>
+
+
+
+</table></body>
+
+</html>
+
+
+
+
+
+மேற்கண்ட உதாரணத்தில் table, th & td ஆகிய 3-க்கும் வெவ்வேறு நிறங்களில் border அளிக்கப்பட்டுள்ளது. எனவே அவை 3-ம் table-ல் ஒன்றுடன் ஒன்று கலந்திறாமல் தனித்தனியாகத் தெரிவதை கவனிக்கவும். இவற்றை ஒன்றுடன் ஒன்று கலக்கச் செய்ய border-collapse ன் மதிப்பினை collapse என்று கொடுக்க வேண்டும். இது பின்வருமாறு.
+
+
+
+
+
+table {width:60%; height:40%; border: 3px solid red; border-collapse: collapse;}
+
+
+
+
+
+Divisions
+
+
+Division என்பது நமது content-ஐச் சுற்றி கோடு போட்டு ஒரு பெட்டியை உருவாக்கப் பயன்படும். இதை எவ்வாறு அழகு செய்வது என்று பின்வருமாறு பார்க்கலாம்.
+
+
+
+<html>
+
+<head>
+
+<style>
+
+div {width:60%; height: 40%; border: 3px solid red; }
+
+</style>
+
+</head>
+
+<body> <div>Dont Giveup! Keep on Trying! Even though it seems to be impossible, It will happen in your life one day. All the very best friends! Wait to see the miracle in your life!!!!!! </div></body>
+
+</html>
+
+
+
+
+
+மேலே நமது division-இன் நீளம், அகலம், border ஆகியவை எவ்வாறு இருக்க வேண்டும் எனும் விவரங்கள் கொடுக்கப்பட்டுள்ளன. இப்போது margin:25px என்று சேர்க்கும்போது அந்த division அதன் மேற்புறமும் பக்கவாட்டிலும் 25px இடைவெளி விட்டு வெளிப்படுவதை கவனிக்கவும்.
+
+
+
+div {width:60%; height: 40%; border: 3px solid red; margin:25px; }
+
+
+
+
+
+இப்போது division-க்கும் அதனுள் உள்ள content-க்கும் ஏதேனும் ஒரு margin அமைக்க விரும்பினால் padding:25px என்று கொடுக்கலாம். இது பின்வருமாறு.
+
+
+
+div {width:60%; height: 40%; border: 3px solid red; margin:25px;padding: 25px; }
+
+
+
+
+
+Body background
+
+
+நமது வலைத்தளப் பக்கங்களின் பின்புறத்தை ஏதேனும் ஒரு நிறத்தைக் கொண்டு நிரப்ப style நிரலைப் பின்வருமாறு அமைக்க வேண்டும்.
+
+
+
+<html>
+
+<head>
+
+<style>
+
+body {background-color: skyblue;}
+
+</style>
+
+</head>
+
+<body> Dont Giveup! Keep on Trying! Even though it seems to be impossible, It will happen in your life one day. All the very best friends! Wait to see the miracle in your life!!!!!! </body>
+
+</html>
+
+
+
+
+
+ஏதேனும் ஒரு நிறத்திற்குப் பதிலாகப் படத்தையும் கொடுக்கலாம். இது பின்வருமாறு.
+
+
+
+
+
+body {background: url("image.gif");}
+
+
+
+
+
+மேற்கண்ட முறையில் படமானது பக்கம் முழுவதும் திரும்பத் திரும்ப வந்து நிரப்புகிறது. அவ்வாறு இல்லாமல் ஒரே ஒரு முறை மட்டும் படம் வெளிப்படுமாறு செய்ய no repeat என்று கொடுக்க வேண்டும். இது பின்வருமாறு.
+
+
+
+body {background: url("image.gif")no-repeat;}
+
+
+
+
+
+no-repeat ஆனது படத்தை பொதுவாக இடப்பக்கத்தில் மட்டும் அமைக்கும். இதனை வலப்பக்கம் மாற்ற no-repeat right top என்று கொடுக்க வேண்டும். இது பின்வருமாறு.
+
+
+
+body {background: url("image.gif")no-repeat right top;}
+
+
+
+
+
+அடுத்து நீலவாட்டில் மட்டும் படம் வெளிப்படுமாறு செய்ய repeat-x எனவும், பக்கவாட்டில் மட்டும் படம் வெளிப்படுமாறு செய்ய repeat-y எனவும், கொடுக்க வேண்டும். இவை பின்வருமாறு.
+
+
+
+body {background: url("image.gif")repeat-x;}
+
+
+
+
+
+body {background: url("image.gif")repeat-y;}
+
+
+
+
+
+Positioning
+
+
+Positioning-ஐப் பயன்படுத்தி வலைத்தளப் பக்கங்களில் ஒருசில வார்த்தைகளை ஒரு குறிப்பிட்ட இடத்தில் வெளிப்படுமாறு செய்யலாம். Left, Right, Top, Bottom எனும் நான்கு வகையான பண்புகள் இதற்காகப் பயன்படுகின்றன. இங்கு Fixed, Static, Relative எனும் 3 வகையான positioning-ஐப் பற்றி பார்க்கலாம்.
+
+
+
+வலைத்தளப் பக்கங்களில் இயல்பான விதத்தில் வரிகள் வெளிப்படுவதே static positioning ஆகும். இது மேற்கூறிய 4 பண்புகளாலும் பாதிக்கப்படாது. இது பின்வருமாறு.
+
+
+
+<html>
+
+<head>
+
+<style>
+
+p.a {position:static; top:5px; right:30px}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<p class=a> Dont Giveup! Keep on Trying! </p>
+
+<p class=b>Even though it seems to be impossible, It will happen in your life one day. </p>
+
+<p class=c>All the very best friends! Wait to see the miracle in your life!!!!!! </p>
+
+</body>
+
+</html>
+
+
+
+
+
+இங்கு top:5px; right:30px; என்று கொடுத்தாலும் வரிகள் இயல்பான விதத்தில் வெளிப்படுவதை கவனிக்கவும்.
+
+
+
+Position : fixed என்று கொடுக்கும் போது நாம் கொடுத்திருக்கும் top:5px; right:30px; எனும் மதிப்புக்கு ஏற்ப வலப்புறத்திலும், மேற்புறத்திலும் இடம்விட்டு அந்த வரி வெளிப்படுவதை கவனிக்கவும். இது பின்வருமாறு.
+
+
+
+
+
+இவ்விதத்தில் வார்த்தைகள் வெளிப்படும்போது அவை browser-ல் நிலையான ஒரு இடத்தைப் பெற்று விடுவதால், இதன்மீது மற்ற வரிகள் overwrite செய்துவிடும்.
+
+
+
+
+
+<html>
+
+
+
+<head>
+
+<style>
+
+p.a {position:fixed; top:5px; right:30px}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<p class=a> Dont Giveup! Keep on Trying! </p>
+
+<p class=b>Even though it seems to be impossible, It will happen in your life one day. </p>
+
+<p class=c>All the very best friends! Wait to see the miracle in your life!!!!!! </p>
+
+</body>
+
+</html>
+
+
+
+
+
+Position : relative என்று அமைக்கும்போது இயல்பான நிலையிலிருந்து நாம் கொடுக்கும் மதிப்புக்கு ஏற்ப வரிகளை தள்ளி அமைக்கும். பின்வரும் உதாரணத்தில், இயல்பான வலப்புறத்திலிருந்து 30px பின்னோக்கி தள்ளப்பட்டு வரிகள் வெளிப்படுவதை கவனிக்கவும்.
+
+
+
+
+
+<html>
+
+
+
+<head>
+
+<style>
+
+p.a {position:relative; top:5px; right:30px}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<p class=a> Dont Giveup! Keep on Trying! </p>
+
+<p class=b>Even though it seems to be impossible, It will happen in your life one day. </p>
+
+<p class=c>All the very best friends! Wait to see the miracle in your life!!!!!! </p>
+
+</body>
+
+</html>
+
+
+
+
+
+Combinators
+
+
+
+
+Combinator என்பது இரண்டு selector-க்கு இடையில் அமைக்கப்படும் ஒரு உறவு ஆகும். <div> எவ்வாறு அமைக்கப்பட வேண்டும், <p> எவ்வாறு அமைக்கப்பட வேண்டும் என்பதெல்லாம் selectors. இவை இரண்டையும் இணைத்து ஏதேனும் ஒன்று சொல்லப்படுமாயின் அது combinator ஆகும்.
+
+
+
+div p { ----- } : இவ்வாறு div, p எனும் இரண்டு selector-க்கும் இடையில் இடைவெளி விட்டு style-ஐக் குறிப்பிட்டோமானால், அந்த style-ஆனது divக்குள் இருக்கும் p-க்கு மட்டுமே பொருந்தும்.
+
+
+
+
+
+<html>
+
+
+
+<head>
+
+<style>
+
+div p {background-color:skyblue;}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+<p> Dont Giveup! Keep on Trying! </p>
+
+<b><p>Even though it seems to be impossible, It will happen in your life one day. </p></b>
+
+</div>
+
+
+
+<p>All the very best friends!</p>
+
+<p> Wait to see the miracle in your life!!!!!! </p>
+
+</body>
+
+</html>
+
+
+
+
+
+div ~ p { ----- } : div, p எனும் இரண்டு selector-க்கும் இடையில் ~ இருந்தால் div-க்கு வெளியே இருக்கும் p-க்கு மட்டுமே கொடுக்கப்படும் style பொருந்தும்.
+
+
+
+
+
+<html>
+
+
+
+<head>
+
+<style>
+
+div ~ p {background-color:skyblue;}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+<p> Dont Giveup! Keep on Trying! </p>
+
+<b><p>Even though it seems to be impossible, It will happen in your life one day. </p><b>
+
+</div>
+
+
+
+<p>All the very best friends!</p>
+
+<p> Wait to see the miracle in your life!!!!!! </p>
+
+</body>
+
+</html>
+
+
+
+
+
+div + p { ----- } : div, p எனும் இரண்டு selector-க்கும் இடையில் + காணப்படின் div-ஐத் தொடர்ந்து உடனடியாக வரும் p-க்கு மட்டுமே கொடுக்கப்படும் style பொருந்தும்.
+
+
+
+
+
+<html>
+
+
+
+<head>
+
+<style>
+
+div + p {background-color:skyblue;}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+<p> Dont Giveup! Keep on Trying! </p>
+
+<b><p>Even though it seems to be impossible, It will happen in your life one day. </p></b>
+
+</div>
+
+
+
+<p>All the very best friends!</p>
+
+<p> Wait to see the miracle in your life!!!!!! </p>
+
+</body>
+
+</html>
+
+
+
+
+
+div > p { ----- } : div, p எனும் இரண்டு selector-க்கும் இடையில் > இருந்தால் divக்குள் இருக்கும் p-க்கு மட்டுமே style பொருந்தும். ஆனாலும் அந்த p-ஆனது வேறு ஏதேனும் ஒரு tag-க்குள் சிக்கிக்கொண்டால் அவற்றுக்கு style பொருந்தாது.
+
+
+
+
+
+<html>
+
+
+
+<head>
+
+<style>
+
+div > p {background-color:skyblue;}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+<p> Dont Giveup! Keep on Trying! </p>
+
+<b><p>Even though it seems to be impossible, It will happen in your life one day. </p></b>
+
+</div>
+
+
+
+<p>All the very best friends!</p>
+
+<p> Wait to see the miracle in your life!!!!!! </p>
+
+</body>
+
+</html>
+
+
+
+
+
+Gallery
+
+
+
+
+Gallery என்பது ஒரே அளவிலான பல்வேறு படங்களின் தொகுப்பு ஆகும். Gallery-க்குள் இருக்கும் ஒவ்வொரு படத்தின் மீது சென்று சொடுக்கும் போதும், அதற்கான முழு படம் பெரிய அளவில் வெளிப்படும். இது போன்ற ஒரு gallery-ஐ உருவாக்குவதற்கான நிரல் பின்வருமாறு அமையும்.
+
+
+
+<html>
+
+
+
+<head>
+
+<style>
+
+
+
+div.one {margin:5px; padding:5px; border:1px; solid red; float:left; text-align:center;}
+
+
+
+div.one img { display:inline; margin: 5px; border:1px solid yellow; width:170px; height:150px;}
+
+
+
+div.one a:hover img{border:1px solid blue;}
+
+
+
+div.two {text-align:center; font-weight:normal; width:120px; margin:5px;}
+
+
+
+</style>
+
+</head>
+
+
+
+
+
+<body>
+
+
+
+<div class="one"> <a target="_blank" href="a1.jpg"><img src="a1.jpg"></a> <div class="two">1</div></div>
+
+
+
+<div class="one"> <a target="_blank" href="a2.jpg"><img src="a2.jpg"></a> <div class="two">2</div></div>
+
+
+
+<div class="one"> <a target="_blank" href="a3.jpg"><img src="a3.jpg"></a> <div class="two">3</div></div>
+
+
+
+<div class="one"> <a target="_blank" href="a4.jpg"><img src="a4.jpg"></a> <div class="two">4</div></div>
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+இங்கு <style>-க்குள் முதலாவதாக கொடுக்கப்பட்டிருக்கும் div.one என்பது one எனும் பெயர் கொண்ட division எவ்வாறு அமைக்கப்பட வேண்டும் எனும் விவரத்தை அளிக்கிறது. பின்னர் அதற்குள் உள்ள <img>-ன் நீல அகல உயர விவரம் இரண்டாவது வரியில் கொடுக்கப்பட்டுள்ளது. மூன்றாவது வரியில் cursor எந்த image-ன் மீது செல்கிறதோ அந்த image border மட்டும் நீல நிறத்தில் மாறும் வண்ணம் a:hover என்பது கொடுக்கப்பட்டுள்ளது. கடைசியாக உள்ள வரியானது one எனும் பெரிய division-க்குள் two எனும் பெயர் கொண்ட மற்றொரு division-ஐ உருவாக்கி அதற்குள் image-ஐ சீராக வைக்க உதவுகிறது.
+
+அடுத்தபடியாக Gallery-க்குள் எந்த image-ன் மீது cursor செல்கிறதோ அந்த image மட்டும் தெளிவாகத் தெரியும்படியும், மற்றவையெல்லாம் சற்று மங்கலாக இருக்கும் படியும் அமைப்பதற்கு Opacity எனும் பண்பு பயன்படுகிறது. இதன் மதிப்பு 100-லிருந்து குறையக் குறைய image-ன் தெளிவு மங்கலாகிக் கொண்டே செல்லும். இது பின்வருமாறு.
+
+
+
+
+
+<html>
+
+
+
+<head>
+
+<style>
+
+
+
+div.one {margin:5px; padding:5px; border:1px; solid red; float:left; text-align:center;}
+
+
+
+div.one img { display:inline; margin: 5px; border:1px solid yellow; width:170px; height:150px; opacity: 0.4; filter:alpha(opacity=40);}
+
+
+
+div.one a:hover img{border:1px solid blue;opacity: 1; filter:alpha(opacity=100);}
+
+
+
+div.two {text-align:center; font-weight:normal; width:120px; margin:5px;}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="one"> <a target="_blank" href="a1.jpg"><img src="a1.jpg"></a> <div class="two">1</div></div>
+
+
+
+<div class="one"> <a target="_blank" href="a2.jpg"><img src="a2.jpg"></a> <div class="two">2</div></div>
+
+
+
+<div class="one"> <a target="_blank" href="a3.jpg"><img src="a3.jpg"></a> <div class="two">3</div></div>
+
+
+
+<div class="one"> <a target="_blank" href="a4.jpg"><img src="a4.jpg"></a> <div class="two">4</div></div>
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+IE8 மற்றும் அதற்கும் குறைந்த version-களில் filter:alpha(opacity=40); என்று கொடுக்க வேண்டும். இல்லையெனில் opacity:0.4; என்று கொடுத்தால் போதுமானது.
+
+
+
+
+
+CSS3
+
+
+
+
+CSS3 என்பது முழுக்க முழுக்க செயல்முறையில் செய்து பார்த்து மகிழ வேண்டிய ஒரு விஷயம். இதற்கு நான் என்னதான் screenshot எடுத்துக் காட்டினாலும் உங்களால் உணர முடியாது. எனவே இதற்கான கருத்துகளை மட்டும் நான் விளக்குகிறேன். நீங்களே இதனை செய்து பார்த்து மகிழுங்கள்.
+
+
+
+
+
+Transitions
+
+
+ஒருசில வலைத்தளப் பக்கங்களில் ஒரு சின்ன பெட்டிக்குள் ஒருசில எழுத்துக்கள் காணப்படும். நாம் அதன்மீது cursor-ஐக் கொண்டு சென்றால், அந்தப் பெட்டி கொஞ்சம் கொஞ்சமாக ஒரு குறிப்பிட்ட அளவு வரை பெரிதாகி அதற்குள் உள்ளவை தெளிவாகத் தெரியும். பின்னர் அதிலிருந்து cursor-ஐ எடுக்கும்போது அதன் அளவு மீண்டும் கொஞ்சம் கொஞ்சமாகக் குறைந்து அதன் பழைய நிலைக்குத் திரும்பும்.
+
+
+
+இதுபோன்று விரிவடைந்து சுருங்குமாறு ஒரு division-ஐ மாற்றுவதற்கு transition எனும் பண்பு பயன்படுகிறது. முதலில் ஒரு சாதாரண <div> </div> ஐ program-ல் உருவாக்கிவிட்டு பின்னர் அதற்கான style section-ல் பின்வருமாறு கொடுக்கவும்.
+
+
+
+div {width: 100px; height: 100px; background: red; transition: width 1s, height 1s;}
+
+div:hover {width: 300px; height: 300px;}
+
+
+
+இது 100px நீளமும் அகலமும் கொண்ட divition-ஐ 300px வரை விரிவடைய செய்யும். அதாவது 100px நீளமும் அகலமும் கொண்ட ஒரு division-ன் மீது cursor-ஐக் கொண்டு செல்லும்போது, அது 300px வரை விரிவடைய வேண்டும் என்பதை div:hover என்பது குறிக்கிறது. அவ்வாறு விரிவடையும் நிகழ்வானது 1 second-க்குள் நிகழ வேண்டும் என்பது transition-ன் மதிப்பாக <div> property-க்குள் கொடுக்கப்பட்டுள்ளது.
+
+
+
+
+
+இதன் மூலம் division-ன் மீது cursor செல்லும்போது 1 second-க்குள் அந்த division-ஆனது விரிவடையும். அவ்வாறே அதிலிருந்து cursor நீங்கும்போது அதே 1 second-க்குள் division பழைய நிலைக்குத் திரும்பும்.
+
+
+
+Transition-Delay:
+
+
+
+Transition-delay என்பது எவ்வளவு நிமிடம் கழித்து அதனை விரிவடையச் செய்ய வேண்டும் என்பதைக் குறிப்பிடுகிறது.
+
+div {transition-delay: 1s; transition: width 1s, height 1s; }
+
+என்று கொடுக்கும்போது, 1 நிமிடம் கழித்து வரும் அடுத்த 1 நிமிடத்துக்குள் division-ஐ விரிவடையச் செய்யும்.
+
+
+
+Transform:
+
+
+
+Transform என்பது எவ்வகையில் விரிவடைய வேண்டும் என்பதைக் குறிக்கிறது.
+
+div:hover {width: 300px; height: 300px; transform: rotate(180deg)}
+
+
+
+என்று கொடுத்தால் 180 degree-ல் சுழன்று கொண்டே 300px வரை விரிவடையும். இந்த degree-ன் மதிப்பை 90, 180, 360, 1200 என்றெல்லாம் கொடுத்து நிகழும் விளையாட்டை ரசிக்கவும்.
+
+
+
+
+
+Animations
+
+
+
+
+Animation என்பது வலைத்தளப் பக்கங்களில் இங்கும் அங்குமாக ஓடக்கூடிய அல்லது இயங்கக்கூடிய படங்களை உருவாக்கும் விதம் ஆகும். அதாவது சாதாரணமாக இருக்கும் படத்திற்கு ஏதேனும் ஒரு இயக்கத்தைக் கொடுத்தோமானால் அதுவே Animation எனப்படும்.
+
+
+
+முதலில் ஒரு division-ஐ இங்கும் அங்குமாக ஓடுமாறு செய்வது எவ்வாறு என்று பார்க்கலாம். இதற்கு ஒரு சாதாரண <div> </div> ஐ program-ல் உருவாக்கிவிட்டு பின்னர் அதற்கான style section-ல் பின்வருமாறு கொடுக்கவும்.
+
+
+
+div {width: 100px; height: 100px; background: red; }
+
+
+
+இது 100px நீளமும் அகலமும் கொண்ட ஒரு சிகப்பு நிறப் பெட்டியை உருவாக்கும். இதனுடன் நாம் உருவாக்கப்போகும் Animation-ன் பெயரையும், அது எவ்வளவு நேரத்துக்குள் இயங்க வேண்டும் எனும் கால அளவையும் animation எனும் பண்பின் மதிப்புகளாகக் கொடுக்க வேண்டும்.
+
+
+
+div {width: 100px; height: 100px; background: red; position: relative; animation: nithya 5s; }
+
+
+
+animation: nithya 5s; என்பது 'nithya' எனும் பெயர் கொண்ட 5 second-க்குள் இயங்க வல்ல animation-ஐ உருவாக்கும். இதன் தொடர்ச்சியாக 2s எனும் மதிப்பினை இணைக்கும்போது, அது animation-ஐ 2 நிமிடம் கழித்து தொடங்கும் (animation: nithya 5s 2s;). பொதுவாக animation-ஆனது ஒரு முறை இயங்கி முடிந்து விடும். அது தொடர்ந்து நிகழ்ந்து கொண்டே இருக்க வேண்டும் என்றால் infinite எனும் வார்த்தையை குறிப்பிட வேண்டும் (animation: nithya 5s 2s infinite;). .
+
+
+
+@keyframes:
+
+
+
+இப்போது என்ன animation என்பதை @keyframes nithya-க்குள் விளக்கப் போகிறோம். இது style section-ல் அமையும்.
+
+
+
+@keyframes nithya {0%{left:0px; top:0px;}25%{left:200px; top:0px;}50%{left:200px; top:200px;}75%{left:0px; top:200px;}100%{left:0px; top:0px;}}
+
+
+
+மேலே உள்ள நிரல்-ஆனது division-ஐ நான்காமூலைக்கும் நகர்த்தும். எவ்வாறெனில், animation-ன் கால அளவான 5 second என்பது 25% முடியும்போது அந்த division எங்கு இருக்க வேண்டும், 50% முடியும்போது அந்த division எங்கு இருக்க வேண்டும், அவ்வாறே 75%, 100% - க்கும் தனித்தனியே கொடுக்கப்பட்டுள்ளது. எனவே 5 second-க்குள் அந்த division எங்கெங்கு இருக்க வேண்டுமோ அங்கங்கு சென்று வருகிறது. 0px, 200px எனும் மதிப்புகளை மாற்றி மாற்றி அமைத்து நிகழும் விளையாட்டை ரசிக்கவும். @keyframes என்பது division நகரும்பொழுது அது மிதமான வேகத்தில் அழகாக நகர உதவுகிறது.
+
+
+
+
+
+அடுத்தபடியாக ஒவ்வொரு இடத்திற்கு நகரும்பொழுதும் அதன் நிறம் மாறுமாறு செய்ய background-color எனும் பண்பினை பின்வருமாறு keyframes - க்குள் இணைக்கலாம். 25%{background-color: yellow; left:200px; top:0px;}
+
+
+
+
+
+Multiple Columns
+
+
+
+
+பொதுவாக செய்தித்தாளில் காணப்படும் வரிகள் பல்வேறு columns-க்குள் மடங்கி சிறு சிறு பகுதிகளாக செய்திகளை வெளிப்படுத்தும். இதுபோன்ற ஒரு அமைப்பினை வலைத்தளத்தில் உருவாக்க column-count எனும் பண்பு பயன்படுகிறது. முதலில் ஒரு சாதாரண paragraph-ஐ பின்வருமாறு program-ல் உருவாக்கிவிட்டு பின்னர் அதற்கான style section-ல் கீழே உள்ளவாறு கொடுக்கவும்.
+
+
+
+<p><b>This blog will tells you about how to make estimation for an ETL project with SMC Model.</b></p>
+
+
+
+<div> Based on the requirement we need to calculate the overall tables count and we need to categorize them as simple tables, medium tables and complex tables. Rough values are given below. Here I have considered all the 30 staging tables as simple. So I have categorized only the warehouse tables. All the values mentioned in the above ‘Test Case Unit Efforts’ are fact values. We can’t change it. So no need to worry about this. We can keep this as it is and let’s go for the staging table & warehouse table’s validation part.</div>
+
+
+
+div{-webkit-column-count: 3;}
+
+
+
+
+
+இது கொடுக்கப்பட்டுள்ள paragraph-ஐ தனித்தனிப் பகுதிகளாகப் பிரித்து அதனை 3 column-ல் வெளிப்படுத்தும். ஒவ்வொரு column-க்கும் இடையில் ஏதேனும் இடைவெளி அமைக்க விரும்பினால் column-gap: 40px; எனவும் கொடுக்கலாம். அந்த இடைவெளியில் கோடு போட விரும்பினால் column-rule எனும் பண்பு பயன்படும். column-rule: 1px solid lightblue; இதில் 1px என்பது கோட்டின் அடர்த்தியையும், solid என்பது திடமான கோட்டையும், lightblue என்பது அக்கோட்டிற்கு அளிக்கப்படும் நிறத்தையும் குறிக்கும்.
+
+
+
+மேலே உள்ள paragraph-ல் h1-க்குள் உள்ள வரி மட்டும் எந்த column-க்குள்ளும் அடங்கிவிடாமல் அனைத்து column-ன் மீதும் தெரியுமாறு கொடுக்க விரும்பினால், column-span எனும் பண்பு பயன்படும். இது style section-க்குள் பின்வருமாறு அமையும்.
+
+
+
+h1 {column-span: all;}
+
+
+
+
+
+Re-sizing
+
+
+
+
+நமது வலைத்தளத்தைப் பயன்படுத்தும் பயனர்கள், அவர்களின் விருப்பத்திற்கு border-ஐ நீட்டிக் குறுக்குமாறு செய்ய உதவும் பண்பு Re-sizing எனப்படும். ஒரு் heading, division, paragraph என்று எதற்கு வேண்டுமானாலும் இந்தப் பண்பைக் கொடுக்கலாம். முதலில் பின்வருமாறு ஒரு heading-ஐ program-ல் உருவாக்கிவிட்டு பின்னர் அதற்கான style section-ல் கீழே உள்ளவாறு கொடுக்கவும்.
+
+
+
+<h1>This blog will tells you about how to make estimation for an ETL project with SMC Model.</h1>
+
+
+
+h1 {border: 2px solid; padding: 20px; width: 300px; resize: both; overflow: auto;}
+
+
+
+இதில் resize: both என்பது heading-ஐ நீளவாட்டிலும் அகலவாட்டிலும் resize செய்ய உதவும். நீளவாட்டில் மட்டும் resize செய்ய விரும்பினால் horizontal எனவும், அகலவாட்டிற்கு vertical எனவும் கொடுக்கலாம். overflow: auto என்பது resize-உடன் எப்பொழுதும் இணைக்கப்பட வேண்டிய ஒரு பண்பு ஆகும்.
+
+
+
+
+
+Shadows
+
+
+
+
+Shadows என்பது நிழல் போன்ற வடிவத்தை உருவாக்கப் பயன்படுகிறது. text-shadow என்பது எழுத்துக்களை நிழலுடன் வெளிப்படுத்தவும், box-shadow என்பது பெட்டியினை நிழலுடன் வெளிப்படுத்தவும் பயன்படும் பண்புகள் ஆகும். அவ்வாறு வெளிப்படும் நிழலினை வண்ணங்களுடன் வெளிப்படுத்துதல், அந்த நிழலின் அகலத்தை அதிகப்படுத்துதல் போன்ற விஷயங்களை இந்தப் பண்பின் மதிப்புகளாகச் சேர்த்துக்கொண்டே செல்லலாம்.
+
+
+
+முதலில் பின்வருமாறு ஒரு text மற்றும் division-ஐ program-ல் உருவாக்கிவிட்டு பின்னர் அதற்கான style section-ல் அதன்கீழ் உள்ளவாறு கொடுக்கவும்.
+
+
+
+<h1>This blog will tells you about how to make estimation for an ETL project with SMC Model.</h1>
+
+<div>SMC Model is nothing but simple, medium and complex estimation</div>
+
+
+
+h1 {text-shadow: 2px 2px 5px red;}
+
+div {width: 300px; height: 50px; border: 2px solid; box-shadow: 10px 10px 5px blue;}
+
+
+
+
+
+இங்கு text-shadow-ன் முதல் இரண்டு மதிப்புகளாகக் காணப்படும் 2px 2px என்பது அந்த நிழலின் நீள அகல மதிப்புகளைக் குறிக்கிறது. அதன் தொடர்ச்சியாக உள்ள 5px red என்பது அந்த நிழலின் நிறத்தையும், அந்த நிறம் எவ்வளவு மங்களாகத் தெரிய வேண்டும் என்பதை pixel-ளிலும் குறிப்பிடுகிறது.
+
+
+
+
+
+Border Radius
+
+
+
+
+CSS-ல் உள்ள border எனும் பண்பு நமது content-ஐ சுற்றி ஒரு border-ஐ உருவாக்கும். CSS3-ல் உள்ள border-radius எனும் பண்பு அவ்வாறு உருவாக்கப்பட்ட border-ன் நான்கு முனைகளையும் கூரியதாக இல்லாமல், ஓர் அழகிய வளைவாக மாற்றும். இந்தப் பண்பின் மதிப்பினை 25px, 50px, 100px எனக் கொடுத்து அந்த வளைவு எவ்வாறெல்லாம் மதிப்பிற்கு ஏற்ப மாறுகிறது என்பதை கவனிக்கவும்.
+
+
+
+அதற்கு பின்வருமாறு ஒரு heading-ஐ program-ல் உருவாக்கிவிட்டு பின்னர் அதற்கான style section-ல் அதன்கீழ் உள்ளவாறு கொடுக்கவும்.
+
+
+
+<h1>This is my Country</h1>
+
+h1 {border-radius: 25px; border: 2px solid black; padding:20px; width: 200px; height: 100px;}
+
+
+
+
+
+இங்கு border-radiusன் மதிப்பு வெறும் 25px என இருப்பதால், border-ன் நான்கு மூலைகளும் 25px-க்கு வளைக்கப்பட்டு விடும். ஒவ்வொரு மூலையும் எந்த அளவிற்கு வளைக்கப்பட வேண்டும் என்பதை தனித்தனியே கூற விரும்பினால் border-radius: 15px 25px 50px 100px; என்று தனித்தனியாகவும் கொடுக்கலாம்.
+
+
+
+
+
+Gradients
+
+
+
+
+பல நிறங்கள் கலக்கப்பட்ட நிலையில் ஒரு division-ஐ நிரப்புவதற்கு gradient எனும் பண்பு பயன்படுகிறது. இதனை linear-gradient, radical-gradient என்று இரண்டு வகையாகப் பிரிக்கலாம்.
+
+
+
+linear-gradient என்பது கொடுக்கப்படும் நிறங்களை இடமிருந்து வலமாகவோ அல்லது மேலிருந்து கீழாகவோ கலக்கச் செய்யும். radical-gradient என்பது நிறங்களை உள்ளிருந்து வெளியாகக் கலக்கச் செய்யும்.
+
+
+
+பின்வருமாறு ஒரு division-ஐ program-ல் உருவாக்கிவிட்டு பின்னர் அதற்கான style section-ல் அதன்கீழ் உள்ளவாறு கொடுக்கவும்.
+
+
+
+div {height: 200px; background: linear-gradient(red, blue); }
+
+
+
+
+
+இது linear-gradient ஆகும். நிறங்கள் மேலிருந்து கீழாகக் கலக்கப்படும். இதனை இடமிருந்து வலமாகக் கலக்க விரும்பினால், linear-gradient(to right, red, blue) என்று கொடுக்கலாம்.
+
+
+
+
+
+அவ்வாறே உள்ளிருந்து வெளியாகக் கலக்கச் செய்வதற்கான radical-gradient பின்வருமாறு அமையும்.
+
+
+
+div {height: 200px; background: radical-gradient(red, blue, green); }
+
+
+
+
+
+Displaying Texts
+
+
+
+
+நாம் வெளிப்படுத்தும் வரிகளைச் சுற்றி ஒரு border உள்ளதெனில் அதற்குள் வரிகளை எவ்வாறு அடக்கப்பட வேண்டும் என்பதை CSS3-ல் கூற முடியும். இதற்காக text-overflow, word-wrap, word-break எனும் 3 பண்புகள் உள்ளன.
+
+
+
+text-overflow என்பது border-க்குள் அடங்காதவற்றை வெளிப்படுத்தாது. இதன் மதிப்பு clip என்றிருந்தால் border-ஐத் தாண்டிச் செல்லும் எழுத்துக்களை அந்த இடத்திலேயே துண்டித்து விடும். ellipsis என்றிருந்தால் border-ஐ ஒரு வார்த்தை தாண்டப் போகிறதெனில் அந்த வார்த்தையைத் துண்டித்துவிட்டு அதற்கு பதிலாக மூன்று புள்ளிகளை ... வெளிப்படுத்தும்.
+
+
+
+மேலும் text-overflow என்பது அதன் துணைப்பண்பான overflow-ன் மதிப்பைப் பொறுத்து மீதி எழுத்துக்களை வெளிப்படுத்தலாமா வேண்டாமா என்பதை முடிவு செய்யும். overflow-ன் மதிப்பு hidden என்றிருக்கும்போது மீதி எழுத்துக்கள் வெளிப்படாமலும், visible என்றிருக்கும்போது மீதி எழுத்துக்களை வெளிப்படுத்தவும் முடியும்.
+
+
+
+இவை பின்வருமாறு
+
+
+
+<body>
+
+<p class="a">India is my country. All Indians are my brothers and sisters. I love my country.</p>
+
+<p class="b">India is my country. All Indians are my brothers and sisters. I love my country.</p>
+
+<div class="test" style="text-overflow:ellipsis;">This is some long text that will not fit in the box</div><br>
+
+<div class="test" style="text-overflow:clip;">This is some long text that will not fit in the box</div>
+
+</body>
+
+
+
+<style>
+
+p.a{white-space: nowrap; width: 200px; border: 1px solid black; overflow: hidden; text-overflow: clip;}
+
+p.b{white-space: nowrap; width: 200px; border: 1px solid black; overflow: hidden; text-overflow: ellipsis;}
+
+div.test {white-space: nowrap; width: 200px; overflow: hidden; border: 1px solid black;}
+
+div.test:hover {text-overflow: inherit; overflow: visible;}
+
+</style>
+
+
+
+
+
+word-wrap என்பது பெரியதாக இருக்கும் ஒரு வார்த்தையை அதன் border-ஐ விட்டுத் தாண்டிச் செல்ல விடாமல் அடுத்த வரிக்குள் மடக்கிக் காட்டப் பயன்படுகிறது.
+
+
+
+இது பின்வருமாறு.
+
+<p> CognizantTechnologySolutions. The bestplacetowork.</p>
+
+p{width: 150px; border: 1px solid green; word-wrap: break-word;}
+
+
+
+
+
+word-wrap எனும் பண்பு அது பெரும் மதிப்பினைப் பொறுத்து ஒரு முழு வார்த்தையை அடுத்த வரியில் மடக்கிக் காட்டியோ அல்லது அப்படியே எல்லையைத் தாண்டியோ வெளிப்படுத்தும்.
+
+
+
+word-wrap ஆனது break-all எனும் மதிப்பினைப் பெறும்போது வார்த்தைகளை மடக்கி அடுத்த வரியிலும், keep-all மதிப்பினைப் பெறும்போது வார்த்தைகளை மடக்காமல் எல்லைகளைத் தாண்டினாலும் பரவாயில்லை என்று அதே வரியிலும் வெளிப்படுத்தும்.
+
+
+
+
+
+இது பின்வருமாறு.
+
+<p class="a">CognizantTechnologySolutions. The bestplacetowork.</p>
+
+<p class="b">CognizantTechnologySolutions. The bestplacetowork.</p>
+
+
+
+p.a{width: 140px; border: 1px solid black; word-break: keep-all;}
+
+p.b{width: 140px; border: 1px solid black; word-break: break-all;}
+
+
+
+
+
+முடிவுரை
+
+
+
+
+இந்த நூலில் Cascading Style Sheets - ன் அடிப்படைகளை மட்டுமே பார்த்துள்ளோம்.
+
+இன்னும் இந்த நூலில் எழுதப் படாதவை பல. அவற்றை வாசகர்கள் இணையத்தில் தேடி, அறிந்து கொள்ள இந்த நூல் ஆர்வத்தைத் தூண்டும் என நம்புகிறேன்.
+
+
+
+பின்வரும் இணைப்புகள் மிகவும் பயனுள்ளதாக இருக்கும்.
+
+
+
+http://www.w3schools.com/css/
+
+
+
+http://learnlayout.com/
+
+
+
+http://www.csstutorial.net/
+
+
+
+http://alistapart.com/
+
+
+
+http://www.csszengarden.com/
+
+
+
+
+
+ஆசிரியர் பற்றி
+
+
+
+
+
+து. நித்யா
+
+
+
+கணிணி நுட்பங்களை தமிழில் எழுதி வருகிறேன். Cognizant Technologies Solutions நிறுவனத்தில், Datawarehouse Testing துறையில் பணிபுரிகிறேன்.
+
+
+
+“தேமதுரத் தமிழோசை உலகெல்லாம் பரவும் வகை செய்தல் வேண்டும்”
+
+“பிற நாட்டு நல்லறிஞர் சாத்திரங்கள் தமிழ் மொழியிற் பெயர்த்தல் வேண்டும்”
+
+
+
+
+
+என்ற பாரதியின் விருப்பங்களை நிறைவேற்றுவதில், என் பங்களிப்பும் உள்ளது என்பதே, மிகவும் மகிழ்ச்சி.
+
+
+
+இப்போது இங்கிலாந்தில் பணிக்காக உள்ளேன்.
+
+
+
+
+
+மின்னஞ்சல் - nithyadurai87@gmai.com
+
+வலைப்பதிவு - http://nithyashrinivasan.wordpress.com
+
+
+
+
+
+ஆசிரியரின் பிற மின்னூல்கள்
+
+
+
+
+
+'
+
+
+
+
+
+http://freetamilebooks.com/ebooks/learn-mysql-in-tamil/
+
+http://freetamilebooks.com/ebooks/learn-gnulinux-in-tamil-part1/
+
+http://freetamilebooks.com/ebooks/learn-gnulinux-in-tamil-part2/
+
+
+
+
+
+http://freetamilebooks.com/ebooks/html-in-tamil/
+
+
+http://freetamilebooks.com/ebooks/learn-mysql-in-tamil-part-2/
+
+
+
+
+
+கணியம் பற்றி
+
+
+
+
+
+இலக்குகள்
+
+
+கட்டற்ற கணிநுட்பத்தின் எளிய விஷயங்கள் தொடங்கி அதிநுட்பமான அம்சங்கள் வரை அறிந்திட விழையும் எவருக்கும் தேவையான தகவல்களை தொடர்ச்சியாகத் தரும் தளமாய் உருபெறுவது.
+
+
+
+உரை, ஒலி, ஒளி என பல்லூடக வகைகளிலும் விவரங்களை தருவது.
+
+
+
+இத்துறையின் நிகழ்வுகளை எடுத்துரைப்பது.
+
+
+
+எவரும் பங்களிக்க ஏதுவாய் யாவருக்குமான நெறியில் விவரங்களை வழங்குவது.
+
+
+
+அச்சு வடிவிலும், புத்தகங்களாகவும், வட்டுக்களாகவும் விவரங்களை வெளியிடுவது.
+
+
+
+
+
+பங்களிக்க
+
+
+விருப்பமுள்ள எவரும் பங்களிக்கலாம்.
+
+
+
+கட்டற்ற கணிநுட்பம் சார்ந்த விஷயமாக இருத்தல் வேண்டும்.
+
+
+
+பங்களிக்கத் தொடங்கும் முன்னர் கணியத்திற்கு உங்களுடைய பதிப்புரிமத்தை அளிக்க எதிர்பார்க்கப்படுகிறீர்கள்.
+
+
+
+editor@kaniyam.com முகவரிக்கு கீழ்க்கண்ட விவரங்களடங்கிய மடலொன்றை உறுதிமொழியாய் அளித்துவிட்டு யாரும் பங்களிக்கத் தொடங்கலாம்.
+
+மடலின் பொருள்: பதிப்புரிமம் அளிப்பு
+
+
+
+மடல் உள்ளடக்கம்
+
+என்னால் கணியத்திற்காக அனுப்பப்படும் படைப்புகள் அனைத்தும் கணியத்திற்காக முதன்முதலாய் படைக்கப்பட்டதாக உறுதியளிக்கிறேன்.
+
+
+
+இதன்பொருட்டு எனக்கிருக்கக்கூடிய பதிப்புரிமத்தினை கணியத்திற்கு வழங்குகிறேன்.
+
+
+
+உங்களுடயை முழுப்பெயர், தேதி.
+
+
+
+
+
+தாங்கள் பங்களிக்க விரும்பும் ஒரு பகுதியில் வேறொருவர் ஏற்கனவே பங்களித்து வருகிறார் எனின் அவருடன் இணைந்து பணியாற்ற முனையவும்.
+
+
+
+கட்டுரைகள் மொழிபெயர்ப்புகளாகவும், விஷயமறிந்த ஒருவர் சொல்லக் கேட்டு கற்று இயற்றப்பட்டவையாகவும் இருக்கலாம்.
+
+
+
+படைப்புகள் தொடர்களாகவும் இருக்கலாம்.
+
+
+
+தொழில் நுட்பம், கொள்கை விளக்கம், பிரச்சாரம், கதை, கேலிச்சித்திரம், நையாண்டி எனப் பலசுவைகளிலும் இத்துறைக்கு பொருந்தும்படியான ஆக்கங்களாக இருக்கலாம்.
+
+
+
+தங்களுக்கு இயல்பான எந்தவொரு நடையிலும் எழுதலாம்.
+
+
+
+தங்களது படைப்புகளை எளியதொரு உரை ஆவணமாக editor@kaniyam.com முகவரிக்குஅனுப்பிவைக்கவும்.
+
+
+
+தள பராமரிப்பு, ஆதரவளித்தல் உள்ளிட்ட ஏனைய விதங்களிலும் பங்களிக்கலாம்.
+
+
+
+ஐயங்களிருப்பின் editor@kaniyam.com மடலியற்றவும்.
+
+
+
+
+
+விண்ணப்பங்கள்
+
+
+கணித் தொழில்நுட்பத்தை அறிய விழையும் மக்களுக்காக மேற்கொள்ளப்படும் முயற்சியாகும் இது.
+
+
+
+இதில் பங்களிக்க தாங்கள் அதிநுட்ப ஆற்றல் வாய்ந்தவராக இருக்க வேண்டும் என்ற கட்டாயமில்லை.
+
+
+
+தங்களுக்கு தெரிந்த விஷயத்தை இயன்ற எளிய முறையில் எடுத்துரைக்க ஆர்வம் இருந்தால் போதும்.
+
+
+
+இதன் வளர்ச்சி நம் ஒவ்வொருவரின் கையிலுமே உள்ளது.
+
+
+
+குறைகளிலிருப்பின் முறையாக தெரியப்படுத்தி முன்னேற்றத்திற்கு வழி வகுக்கவும்.
+
+
+
+
+
+வெளியீட்டு விவரம்
+
+
+பதிப்புரிமம் © 2013 கணியம்.
+
+கணியத்தில் வெளியிடப்படும் கட்டுரைகள் http://creativecommons.org/licenses/by-sa/3.0/ பக்கத்தில் உள்ள கிரியேடிவ் காமன்ஸ் நெறிகளையொத்து வழங்கப்படுகின்றன.
+
+
+
+இதன்படி,
+
+கணியத்தில் வெளிவரும் கட்டுரைகளை கணியத்திற்கும் படைத்த எழுத்தாளருக்கும் உரிய சான்றளித்து, நகலெடுக்க, விநியோகிக்க, பறைசாற்ற, ஏற்றபடி அமைத்துக் கொள்ள, தொழில் நோக்கில் பயன்படுத்த அனுமதி வழங்கப்படுகிறது.
+
+
+
+ஆசிரியர்: த. சீனிவாசன் – editor@kaniyam.com +91 98417 95468
+
+
+
+கட்டுரைகளில் வெளிப்படுத்தப்படும் கருத்துக்கள் கட்டுரையாசிரியருக்கே உரியன.
+
+
+
+
+
+நன்கொடை
+
+
+
+
+
+Creative Commons உரிமையில், யாவரும் இலவசமாகப் பகிரும் வகையில் தமது நூல்களை வெளியிடும் எழுத்தாளரை உங்கள் நன்கொடைகள் ஊக்குவிக்கும்.
+
+
+
+வங்கி விவரங்கள்.
+
+
+
+
+
+Name - Nithya Duraisamy
+
+ICICI - 006101540799
+
+Branch - Mcity branch, chengalpattu.
+
+IFSC code - ICIC0000061
+
+
+
+
+
