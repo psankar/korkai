@@ -1,7 +1,7 @@
 /*
  * A parser to identify the list of tamil words used in the wikipedia
  * and sorted them alphabetically and based on usage count
- * 
+ *
  * Author: Sankar சங்கர் <sankar.curiosity@gmail.com>
  */
 
@@ -167,18 +167,26 @@ func analyze(p *Page) {
 
 	/* Extract the plain text content out of the HTML mess */
 	tokens := strings.FieldsFunc(p.Text, delim)
+	var tmp_m map[string]int
+	tmp_m = make(map[string]int)
 
 	for _, token := range tokens {
 		r, l := utf8.DecodeRuneInString(token)
 		if l != 1 {
 			if unicode.Is(unicode.Tamil, r) {
 				/* Count only tamil words */
-				mutex.Lock()
-				m[token] = m[token] + 1
-				mutex.Unlock()
+				tmp_m[token] += 1
 			}
 		}
 	}
+
+	/* Copy stats to global map. Lock once per-page. */
+	mutex.Lock()
+	for token, value := range tmp_m {
+		m[token] = m[token] + value
+	}
+	mutex.Unlock()
+
 	wg.Done()
 }
 
